@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  span {
+    font-size: 1.5em;
+  }
+  
+  .container {
+    border: solid 1px black;
+    display: block;
+    justify-content: space-around;
+    align-content: baseline;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .palavra-omitida {
+    border-radius: 5px;
+    color: darkgreen;
+    background-color: darkgreen;
+  }
+  
+  .palavra-revelada {
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    color: darkgreen;
+  }
+  
+  .segredo {
+    /* border: solid 1px red; */
+    background-color: white;
+    margin-top: 0.6em;
+  }/*# sourceMappingURL=estilo.css.map */
