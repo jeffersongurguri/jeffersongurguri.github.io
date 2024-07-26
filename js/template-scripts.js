@@ -9,6 +9,6 @@ jQuery(document).ready(function($) {
     navText: ["&#xe605","&#xe606"],
     autoplay: true, 
     animateOut: 'fadeOut',
-    autoplayTimeout: 5000
+    autoplayTimeout: 7000
   });
 });
