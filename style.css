@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #14650c;
+  margin-bottom: 30px;
+}
+.exercise-list {
+  list-style: none;
+  padding: 0;
+}
+code {
+  background: #0b0001;
+  color: #fff;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .1rem .1rem .1rem;
+  border-radius: .2rem;
+}
