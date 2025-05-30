@@ -1,187 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>Lista de Exercícios</title>
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="script.js"></script>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas Integrados de Gestão - Mercantil</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .download-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .download-link:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Disciplina: Sistemas Integrados de Gestão</h1>
+        <p>Bem-vindo à página da disciplina de Sistemas Integrados de Gestão!</p>
 
-  <body>
-    <h1>Avaliação diagnóstica para DW3</h1>
-    <strong>
-      ⚠️ Cada uma das 8 questões deve ser respondida em uma pasta separada. Todas as pastas devem ser compactadas em um único arquivo ZIP.
-    </strong>
-    <p>
-      Exemplo da estrutura
-    </p>
-    <pre>
-      arquivo.zip/
-├── questao_1/
-│   └── resposta_questao_1.html (e outros)
-├── questao_2/
-│   └── resposta_questao_2.html (e outros)
-├── questao_3/
-│   └── resposta_questao_3.html (e outros)
-├── questao_4/
-│   └── resposta_questao_4.html (e outros)
-├── questao_5/
-│   └── resposta_questao_5.html (e outros)
-├── questao_6/
-│   └── resposta_questao_6.html (e outros)
-├── questao_7/
-│   └── resposta_questao_7.html (e outros)
-└── questao_8/
-    └── resposta_questao_8.html (e outros)
-    </pre>
+        <h2>Base de Dados do Mercantil</h2>
+        <p>Para auxiliar nos estudos e trabalhos práticos da disciplina, disponibilizamos uma base de dados simulada de um mercantil.</p>
+        <p>Esta base de dados contém informações relevantes para a compreensão e aplicação dos conceitos de sistemas integrados de gestão em um contexto de varejo.</p>
 
-    <ul class="exercise-list">
-    
-      <exercise-item>
-        <span slot="title">Exercício 1: Classe Pessoa</span>
-        <span slot="description">
-          Crie uma classe chamada Pessoa com os seguintes atributos:
-          <ul>
-            <li><code>nome(string)</code></li>
-            <li><code>idade(number)</code></li>
-          </ul>
-          Adicione um método chamado <code>apresentar():string</code> que
-          retorna uma string formatada com o nome e a idade da pessoa.
-        </span>
-        <span slot="details">Utilize a sintaxe de classe do JS (ES 2015 ou superior).</span>
-      </exercise-item>
+        <p>Clique no link abaixo para baixar a base de dados:</p>
+        <a href="mercantil.csv" class="download-link" download>Baixar Base de Dados (ZIP)</a>
 
-      <exercise-item>
-        <span slot="title">Exercício 2: Classe Livro</span>
-        <span slot="description"
-          >Crie uma classe chamada <code>Livro</code> para um Sistema de Biblioteca.
-        </span>
-        <span slot="details">
-          A classe <code>Livro</code> deve apresentar os seguintes <strong>membros de classe</strong>:
-          <ul>
-            <li>Atributos</li>
-            <ul>
-              <li><code>titulo: string</code></li>
-              <li><code>autor: string</code></li>
-              <li><code>disponivel: boolean</code></li>
-            </ul>
-            <li>Métodos</li>
-            <ul>
-              <li><code>emprestar(): undefined</code> - define disponível como <code>false</code>.</li>
-              <li> <code>devolver(): undefined</code> - define disponível como <code>true</code>.</li>
-              <li> <code>exibirDetalhes(): string</code> - retorna uma string com o título, autor e disponibilidade do livro.</li>
-            </ul>
-          </ul>
-        </span>
-      </exercise-item>
+        <p><strong>Observações:</strong></p>
+        <ul>
+            <li>A base de dados está compactada em formato CSV para facilitar o download.</li>
+            <li>Utilize esta base de dados para realizar análises, consultas e simulações relacionadas aos tópicos da disciplina.</li>
+        </ul>
 
-      <exercise-item>
-        <span slot="title">Exercício 3: Classe ContaBancaria</span>
-        <span slot="description">
-          Crie uma classe que represente uma conta bancária (<code>ContaBancaria</code>).
-        </span>
-        <span slot="details">
-          A classe deve ter os seguintes membros:
-          <ul>
-            <li>Atributos</li>
-            <ul>
-              <li><code>saldo: number</code></li>
-              <li><code>titular: string</code></li>
-            </ul>
-            <li>Métodos</li>
-            <ul>
-              <li><code>depositar(valor: number): undefined</code> - adiciona o valor ao <code>saldo</code>.</li>
-              <li><code>sacar(valor: number): undefined</code></li> - subtrai valor do saldo, se houver saldo suficiente e o argumento valor não pode ser negativo, caso contrário deve lançar uma exceção do tipo <code>RangeError</code>.
-              <li><code>exibirSaldo(): string</code> - retorna uma string representado o saldo no formato R$ 99,99</li>
-            </ul>
-          </ul>
-        </span>
-      </exercise-item>
-
-      <exercise-item>
-        <span slot="title">Exercício 4: Classe Retângulo</span>
-        <span slot="description">Crie uma classe que represente um retangulo <code>Retangulo</code> para aplicações matemáticas</span>
-        <span slot="details">
-          A classe deve apresentar:
-          <ul>
-            <li>Atributos</li>
-            <ul>
-              <li><code>largura: number</code></li>
-              <li><code>altura: number</code></li>
-            </ul>
-            <li>Métodos</li>
-            <ul>
-              <li><code>calcularArea(): number</code> - retorna a área do retângulo</li>
-              <li><code>calcularPerimetro(): number</code> - retorna o perímetro do retângulo</li>
-            </ul>
-          </ul>
-        </span>
-      </exercise-item>
-
-      <exercise-item>
-        <span slot="title">Exercício 5: Classe Animal e Subclasses</span>
-        <span slot="description">Crie uma hierárquia de classes com as classes Animal, Cachorro e Gato.</span>
-        <span slot="details">
-          <ol>
-            <li>Crie uma classe chamada <code>Animal</code> com os seguintes atributos</li>
-            <ul>
-              <li><code>nome:string</code></li>
-              <li><code>especie: string</code></li>
-            </ul>
-            <li>Adicione um método em <code>Animal</code> chamado <code>emitirSom(): string</code> que retorna uma string genérica ("Som de animal").</li>
-            <li>Crie subclasses <code>Cachorro</code> e <code>Gato</code> que herdam de <code>Animal</code></li>
-            <li>Sobreescreva o método <code>emitirSom()</code> em cada subclasse para retornar o som específico do animal ("Au au" para cachorro, "Miau" para gato)</li>.
-          </ol>
-        </span>
-      </exercise-item>
-
-      <exercise-item>
-        <span slot="title">Exercício 6: Mouse sobre o elemento</span>
-        <span slot="description">Vamos manipular elementos utilizando a API <code>addEventListener()</code></span>
-        <span slot="details">
-          <ol>
-            <li>Crie um elemento <code>&lt;div&gt;</code> com algum conteúdo.</li>
-            <li>Adicione um ouvinte de evento mouseover ao elemento <code>&lt;div&gt;</code>.
-              <li>Quando o mouse passar sobre o elemento, altere a cor de fundo do elemento para amarelo.
-              </li>
-              <li>
-                Adicione um ouvinte de evento mouseout ao elemento <code>&lt;div&gt;</code>
-              </li>
-              <li>Quando o mouse sair do elemento, restaure a cor de fundo original.</li>
-          </ol>
-        </span>
-      </exercise-item>
-
-      <exercise-item>
-        <span slot="title">
-          Exercício 7: Temporizador com callback
-        </span>
-        <span slot="description">Vamos criar um timer de cozinha digital.</span>
-        <span slot="details">
-          <ol>
-            <li>Crie um botão com o texto "Iniciar temporizador".</li>
-            <li>Quando o botão for clicado, use a função setTimeout para executar um callback após 5 segundos.</li>
-            <li>O callback deve exibir um alerta com a mensagem "Temporizador concluído!".</li>
-          </ol>
-        </span>
-      </exercise-item>
-      <exercise-item>
-        <span slot="title">Exercício 8: Requisição AJAX com callback
-        </span>
-        <span slot="description">Vamos realizar uma requisição Web com XHR ou Fetch.</span>
-        <span slot="details">
-          <ol>
-            <li>Crie um botão com o texto "Carregar dados".</li>
-            <li>Quando o botão for clicado, use o objeto XMLHttpRequest ou a Fetch API para fazer uma requisição GET para um arquivo <a href="https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json"
-              ">https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json
-            </a>.
-          </li>
-            <li>
-              Use um callback para processar a resposta da requisição e exibir os dados em um elemento HTML.
-            </li>
-          </ol>
-        </span>
-      </exercise-item>
-      
-    </ul>
-  </body>
+        <h2>Outros Recursos</h2>
+        <p>Em breve, outros materiais e recursos serão disponibilizados nesta página.</p>
+    </div>
+</body>
 </html>

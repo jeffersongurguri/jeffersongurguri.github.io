@@ -1,0 +1,461 @@
+item_quantidade,notas_nota_id,produtos_produto_id,item_preco,item_total,nota_id,nota_data_hora,clientes_cliente_id,cliente_id,cliente_nome,cliente_cpf,cliente_endereco,cliente_telefone,produto_id,produto_descricao,departamentos_departamento_id,produto_estoque,produto_preco,departamento_id,departamento_descricao
+2,1,101,35.99,71.98,1,"2025-01-05 08:30:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",101,"Contrafilé Bovino",1,50.5,35.99,1,Açougue
+1,1,201,0.75,0.75,1,"2025-01-05 08:30:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",201,"Pão Francês (un)",2,500,0.75,2,Padaria
+3,1,301,3.8,11.40,1,"2025-01-05 08:30:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",301,"Leite Integral (litro)",3,150,3.8,3,Laticínios
+2,1,408,8.5,17.00,1,"2025-01-05 08:30:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",408,"Blanquet de Peru Fatiado (100g)",4,55,8.5,4,Frios
+2,1,414,16.5,33.00,1,"2025-01-05 08:30:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",414,"Salsichão (kg)",4,50,16.5,4,Frios
+1,41,108,42.5,42.50,41,"2025-07-24 15:45:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",108,"Miolo de Alcatra (kg)",1,18,42.5,1,Açougue
+2,41,207,3.8,7.60,41,"2025-07-24 15:45:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",207,"Croissant (un)",2,45,3.8,2,Padaria
+1,81,109,11.8,11.80,81,"2025-02-07 09:00:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",109,"Asa de Frango (kg)",1,65,11.8,1,Açougue
+3,81,205,6.8,20.40,81,"2025-02-07 09:00:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",205,"Torta de Maçã (fat)",2,20,6.8,2,Padaria
+1,121,417,7.2,7.20,121,"2025-08-26 14:30:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",417,"Azeitona Preta (pote)",4,30,7.2,4,Frios
+2,121,612,4.5,9.00,121,"2025-08-26 14:30:00",1,1,"Ana Paula Silva",12345678901,"Rua das Flores, 123","(11) 99999-8888",612,"Macarrão Parafuso (500g)",6,100,4.5,6,Mercearia
+3,10,202,5.5,16.50,10,"2025-02-19 17:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",202,"Bolo de Chocolate (fat)",2,30,5.5,2,Padaria
+1,10,304,9.2,9.20,10,"2025-02-19 17:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",304,"Manteiga com Sal (500g)",3,60,9.2,3,Laticínios
+2,10,704,2.5,5.00,10,"2025-02-19 17:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",704,"Água Mineral sem Gás (1.5L)",7,250,2.5,7,Bebidas
+1,10,413,7,7.00,10,"2025-02-19 17:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",413,"Ovo Branco (dúzia)",4,60,7,4,Frios
+4,10,213,9.5,38.00,10,"2025-02-19 17:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",213,"Bolo Inglês (un)",2,25,9.5,2,Padaria
+4,10,603,5.5,22.00,10,"2025-02-19 17:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",603,"Óleo de Soja (900ml)",6,100,5.5,6,Mercearia
+4,10,603,5.5,22.00,10,"2025-02-19 17:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",603,"Óleo de Soja (900ml)",6,100,5.5,6,Mercearia
+2,10,416,11.5,23.00,10,"2025-02-19 17:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",416,"Queijo Gouda Fatiado (100g)",4,25,11.5,4,Frios
+4,10,417,7.2,28.80,10,"2025-02-19 17:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",417,"Azeitona Preta (pote)",4,30,7.2,4,Frios
+4,50,210,2.8,11.20,50,"2025-09-07 11:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",210,"Baguete (un)",2,65,2.8,2,Padaria
+1,50,613,3.9,3.90,50,"2025-09-07 11:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",613,"Farinha de Mandioca (500g)",6,65,3.9,6,Mercearia
+1,90,911,3.8,3.80,90,"2025-03-24 15:30:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",911,"Algodão (pacote)",9,70,3.8,9,"Higiene Pessoal"
+2,90,610,19.9,39.80,90,"2025-03-24 15:30:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",610,"Azeite de Oliva (500ml)",6,70,19.9,6,Mercearia
+1,130,916,6.5,6.50,130,"2025-10-11 21:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",916,"Absorvente (pacote)",9,50,6.5,9,"Higiene Pessoal"
+2,130,417,7.2,14.40,130,"2025-10-11 21:00:00",2,2,"Carlos Alberto Oliveira",98765432109,"Avenida Principal, 456","(21) 88888-7777",417,"Azeitona Preta (pote)",4,30,7.2,4,Frios
+2,18,505,3.1,6.20,18,"2025-03-31 09:30:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",505,"Cenoura (kg)",5,110,3.1,5,Hortifruti
+1,18,706,7.5,7.50,18,"2025-03-31 09:30:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",706,"Refrigerante Guaraná (2L)",7,150,7.5,7,Bebidas
+1,18,1014,11.5,11.50,18,"2025-03-31 09:30:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",1014,"Mini Pizza Congelada (pacote)",10,45,11.5,10,Congelados
+1,18,915,2.1,2.10,18,"2025-03-31 09:30:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",915,"Lenço de Papel (pacote)",9,100,2.1,9,"Higiene Pessoal"
+4,18,601,18.9,75.60,18,"2025-03-31 09:30:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",601,"Arroz Branco (5kg)",6,200,18.9,6,Mercearia
+4,18,601,18.9,75.60,18,"2025-03-31 09:30:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",601,"Arroz Branco (5kg)",6,200,18.9,6,Mercearia
+4,18,1017,4.1,16.40,18,"2025-03-31 09:30:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",1017,"Polenta Congelada (pacote)",10,60,4.1,10,Congelados
+4,18,1015,5.1,20.40,18,"2025-03-31 09:30:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",1015,"Espinafre Congelado (pacote)",10,75,5.1,10,Congelados
+3,58,914,25,75.00,58,"2025-10-17 15:45:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",914,"Protetor Solar (frasco)",9,45,25,9,"Higiene Pessoal"
+1,58,317,16.8,16.80,58,"2025-10-17 15:45:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",317,"Mussarela Ralada (pacote)",3,48,16.8,3,Laticínios
+1,98,713,35,35.00,98,"2025-05-03 16:00:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",713,"Espumante (garrafa)",7,20,35,7,Bebidas
+2,98,414,16.5,33.00,98,"2025-05-03 16:00:00",3,3,"Maria Fernanda Santos",11223344556,"Travessa da Paz, 789","(31) 77777-6666",414,"Salsichão (kg)",4,50,16.5,4,Frios
+1,26,405,9.5,9.50,26,"2025-05-10 13:15:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",405,"Mussarela de Búfala (un)",4,30,9.5,4,Frios
+2,26,806,6.8,13.60,26,"2025-05-10 13:15:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",806,"Sabão em Barra (pacote)",8,110,6.8,8,Limpeza
+1,26,1016,9.9,9.90,26,"2025-05-10 13:15:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",1016,"Massa Folhada Congelada (pacote)",10,30,9.9,10,Congelados
+3,26,916,6.5,19.50,26,"2025-05-10 13:15:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",916,"Absorvente (pacote)",9,50,6.5,9,"Higiene Pessoal"
+1,26,801,2.8,2.80,26,"2025-05-10 13:15:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",801,"Detergente Líquido (500ml)",8,120,2.8,8,Limpeza
+1,26,801,2.8,2.80,26,"2025-05-10 13:15:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",801,"Detergente Líquido (500ml)",8,120,2.8,8,Limpeza
+2,26,917,5.5,11.00,26,"2025-05-10 13:15:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",917,"Pasta de Dente Infantil (un)",9,75,5.5,9,"Higiene Pessoal"
+1,26,1016,9.9,9.90,26,"2025-05-10 13:15:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",1016,"Massa Folhada Congelada (pacote)",10,30,9.9,10,Congelados
+1,66,303,2.2,2.20,66,"2025-11-26 18:30:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",303,"Iogurte Natural (un)",3,90,2.2,3,Laticínios
+2,66,703,6.5,13.00,66,"2025-11-26 18:30:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",703,"Suco de Laranja (1L)",7,90,6.5,7,Bebidas
+1,66,303,2.2,2.20,66,"2025-11-26 18:30:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",303,"Iogurte Natural (un)",3,90,2.2,3,Laticínios
+2,66,703,6.5,13.00,66,"2025-11-26 18:30:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",703,"Suco de Laranja (1L)",7,90,6.5,7,Bebidas
+1,106,217,8.5,8.50,106,"2025-06-12 17:00:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",217,"Mini Churros (pacote)",2,40,8.5,2,Padaria
+2,106,917,5.5,11.00,106,"2025-06-12 17:00:00",4,4,"José Ricardo Pereira",66554433221,"Rua do Sol, 1011","(41) 66666-5555",917,"Pasta de Dente Infantil (un)",9,75,5.5,9,"Higiene Pessoal"
+1,2,501,4.5,4.50,2,"2025-01-10 14:15:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",501,"Tomate (kg)",5,75,4.5,5,Hortifruti
+2,2,601,18.9,37.80,2,"2025-01-10 14:15:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",601,"Arroz Branco (5kg)",6,200,18.9,6,Mercearia
+1,2,701,8,8.00,2,"2025-01-10 14:15:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",701,"Refrigerante Cola (2L)",7,180,8,7,Bebidas
+1,2,1010,22,22.00,2,"2025-01-10 14:15:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",1010,"Frango Inteiro Congelado (un)",10,35,22,10,Congelados
+1,2,315,7.9,7.90,2,"2025-01-10 14:15:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",315,"Queijo Cottage (pote)",3,25,7.9,3,Laticínios
+2,2,801,2.8,5.60,2,"2025-01-10 14:15:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",801,"Detergente Líquido (500ml)",8,120,2.8,8,Limpeza
+2,2,801,2.8,5.60,2,"2025-01-10 14:15:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",801,"Detergente Líquido (500ml)",8,120,2.8,8,Limpeza
+2,2,317,16.8,33.60,2,"2025-01-10 14:15:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",317,"Mussarela Ralada (pacote)",3,48,16.8,3,Laticínios
+3,42,511,6.2,18.60,42,"2025-07-29 20:30:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",511,"Couve-flor (un)",5,45,5.5,5,Hortifruti
+1,42,611,3.5,3.50,42,"2025-07-29 20:30:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",611,"Vinagre (500ml)",6,85,3.5,6,Mercearia
+2,82,308,15,30.00,82,"2025-02-12 14:30:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",308,"Queijo Minas Frescal (un)",3,40,15,3,Laticínios
+1,82,607,2.1,2.10,82,"2025-02-12 14:30:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",607,"Sal Refinado (1kg)",6,95,2.1,6,Mercearia
+1,126,214,6.2,6.20,126,"2025-09-21 14:00:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",214,"Pão de Batata (pacote)",2,35,6.2,2,Padaria
+2,126,914,25,50.00,126,"2025-09-21 14:00:00",5,5,"Patrícia Gomes Rodrigues",22334455667,"Avenida Brasil, 1213","(51) 55555-4444",914,"Protetor Solar (frasco)",9,45,25,9,"Higiene Pessoal"
+2,34,310,8.7,17.40,34,"2025-06-19 16:45:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",310,"Ricota Fresca (un)",3,35,8.7,3,Laticínios
+1,34,608,5.1,5.10,34,"2025-06-19 16:45:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",608,"Farinha de Trigo (1kg)",6,140,5.1,6,Mercearia
+1,34,216,5.8,5.80,34,"2025-06-19 16:45:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",216,"Pão de Milho (pacote)",2,30,5.8,2,Padaria
+1,34,717,65,65.00,34,"2025-06-19 16:45:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",717,"Conhaque (garrafa)",7,10,65,7,Bebidas
+2,34,602,7.2,14.40,34,"2025-06-19 16:45:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",602,"Feijão Carioca (1kg)",6,150,7.2,6,Mercearia
+2,34,602,7.2,14.40,34,"2025-06-19 16:45:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",602,"Feijão Carioca (1kg)",6,150,7.2,6,Mercearia
+3,34,1016,9.9,29.70,34,"2025-06-19 16:45:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",1016,"Massa Folhada Congelada (pacote)",10,30,9.9,10,Congelados
+2,34,1017,4.1,8.20,34,"2025-06-19 16:45:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",1017,"Polenta Congelada (pacote)",10,60,4.1,10,Congelados
+1,114,211,1.5,1.50,114,"2025-07-22 19:30:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",211,"Pão Doce (un)",2,50,1.5,2,Padaria
+3,114,710,4.2,12.60,114,"2025-07-22 19:30:00",6,6,"Lucas Daniel Souza",77889900112,"Rua da Praia, 1415","(71) 44444-3333",710,"Água Tônica (lata)",7,100,4.2,7,Bebidas
+1,11,103,18.75,18.75,11,"2025-02-24 10:30:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",103,"Linguiça Toscana (kg)",1,80,18.75,1,Açougue
+2,11,604,4.8,9.60,11,"2025-02-24 10:30:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",604,"Macarrão Espaguete (500g)",6,160,4.8,6,Mercearia
+3,11,913,12.5,37.50,11,"2025-02-24 10:30:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",913,"Hidratante Corporal (frasco)",9,65,12.5,9,"Higiene Pessoal"
+4,11,808,6.2,24.80,11,"2025-02-24 10:30:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",808,"Alvejante sem Cloro (1L)",8,75,6.2,8,Limpeza
+3,11,413,7,21.00,11,"2025-02-24 10:30:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",413,"Ovo Branco (dúzia)",4,60,7,4,Frios
+3,11,211,1.5,4.50,11,"2025-02-24 10:30:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",211,"Pão Doce (un)",2,50,1.5,2,Padaria
+2,51,112,25.5,51.00,51,"2025-09-12 16:45:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",112,"Músculo Bovino (kg)",1,30,25.5,1,Açougue
+1,51,217,8.5,8.50,51,"2025-09-12 16:45:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",217,"Mini Churros (pacote)",2,40,8.5,2,Padaria
+2,91,311,2.9,5.80,91,"2025-03-29 21:00:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",311,"Bebida Láctea (un)",3,110,2.9,3,Laticínios
+1,91,716,3.8,3.80,91,"2025-03-29 21:00:00",7,7,"Fernanda Cristina Lima",33445566778,"Travessa União, 1617","(81) 33333-2222",716,"Guaracamp (lata)",7,95,3.8,7,Bebidas
+1,19,403,8.2,8.20,19,"2025-04-05 15:15:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",403,"Salame Fatiado (100g)",4,40,8.2,4,Frios
+3,19,905,2.1,6.30,19,"2025-04-05 15:15:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",905,"Papel Higiênico (rolo)",9,220,2.1,9,"Higiene Pessoal"
+3,19,212,5.5,16.50,19,"2025-04-05 15:15:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",212,"Pão de Centeio (pacote)",2,40,5.5,2,Padaria
+4,19,810,3.1,12.40,19,"2025-04-05 15:15:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",810,"Detergente para Louças (500ml)",8,120,3.1,8,Limpeza
+3,19,814,4.9,14.70,19,"2025-04-05 15:15:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",814,"Água Sanitária Concentrada (1L)",8,70,4.9,8,Limpeza
+1,19,1019,4.5,4.50,19,"2025-04-05 15:15:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",1019,"Purê de Batata Congelado (pacote)",10,55,4.5,10,Congelados
+1,59,714,6.8,6.80,59,"2025-10-22 20:30:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",714,"Suco de Maracujá (1L)",7,65,6.8,7,Bebidas
+2,59,115,5.5,11.00,59,"2025-10-22 20:30:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",115,"Pé de Frango (kg)",1,30,5.5,1,Açougue
+1,99,914,25,25.00,99,"2025-05-08 08:30:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",914,"Protetor Solar (frasco)",9,45,25,9,"Higiene Pessoal"
+2,99,614,4.2,8.40,99,"2025-05-08 08:30:00",8,8,"Antônio Marcos Costa",88990011223,"Avenida Central, 1819","(91) 22222-1111",614,"Milho de Pipoca (500g)",6,90,4.2,6,Mercearia
+3,27,507,2.5,7.50,27,"2025-05-15 18:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",507,"Batata (kg)",5,130,2.5,5,Hortifruti
+1,27,708,7,7.00,27,"2025-05-15 18:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",708,"Suco de Uva (1L)",7,80,7,7,Bebidas
+3,27,214,6.2,18.60,27,"2025-05-15 18:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",214,"Pão de Batata (pacote)",2,35,6.2,2,Padaria
+1,27,712,7.8,7.80,27,"2025-05-15 18:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",712,"Refrigerante Limão (2L)",7,130,7.8,7,Bebidas
+3,27,916,6.5,19.50,27,"2025-05-15 18:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",916,"Absorvente (pacote)",9,50,6.5,9,"Higiene Pessoal"
+2,27,1018,8.9,17.80,27,"2025-05-15 18:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",1018,"Nhoque Congelado (pacote)",10,25,8.9,10,Congelados
+1,67,802,3.2,3.20,67,"2025-12-01 11:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",802,"Água Sanitária (1L)",8,100,3.2,8,Limpeza
+2,67,903,1.8,3.60,67,"2025-12-01 11:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",903,"Sabonete em Barra (un)",9,200,1.8,9,"Higiene Pessoal"
+1,67,802,3.2,3.20,67,"2025-12-01 11:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",802,"Água Sanitária (1L)",8,100,3.2,8,Limpeza
+2,67,903,1.8,3.60,67,"2025-12-01 11:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",903,"Sabonete em Barra (un)",9,200,1.8,9,"Higiene Pessoal"
+1,107,1017,4.1,4.10,107,"2025-06-17 09:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",1017,"Polenta Congelada (pacote)",10,60,4.1,10,Congelados
+2,107,616,6.9,13.80,107,"2025-06-17 09:00:00",9,9,"Juliana Alves Pereira",44556677889,"Rua da Saudade, 2021","(61) 98765-4321",616,"Óleo de Girassol (900ml)",6,55,6.9,6,Mercearia
+5,3,201,0.75,3.75,3,"2025-01-15 19:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",201,"Pão Francês (un)",2,500,0.75,2,Padaria
+1,3,901,10.5,10.50,3,"2025-01-15 19:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",901,"Shampoo (350ml)",9,95,10.5,9,"Higiene Pessoal"
+2,3,801,2.8,5.60,3,"2025-01-15 19:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",801,"Detergente Líquido (500ml)",8,120,2.8,8,Limpeza
+2,3,512,4.1,8.20,3,"2025-01-15 19:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",512,"Manga (kg)",5,75,4.1,5,Hortifruti
+4,3,405,9.5,38.00,3,"2025-01-15 19:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",405,"Mussarela de Búfala (un)",4,30,9.5,4,Frios
+2,3,1019,4.5,9.00,3,"2025-01-15 19:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",1019,"Purê de Batata Congelado (pacote)",10,55,4.5,10,Congelados
+1,43,910,7.2,7.20,43,"2025-08-03 13:15:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",910,"Sabonete Líquido (frasco)",9,90,7.2,9,"Higiene Pessoal"
+2,43,312,11.2,22.40,43,"2025-08-03 13:15:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",312,"Queijo Parmesão Ralado (pacote)",3,55,11.2,3,Laticínios
+1,83,1006,18,18.00,83,"2025-02-17 20:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",1006,"Lasanha Congelada (un)",10,40,18,10,Congelados
+2,83,908,2.5,5.00,83,"2025-02-17 20:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",908,"Fio Dental (un)",9,130,2.5,9,"Higiene Pessoal"
+3,122,1010,22,66.00,122,"2025-09-01 20:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",1010,"Frango Inteiro Congelado (un)",10,35,22,10,Congelados
+1,122,212,5.5,5.50,122,"2025-09-01 20:00:00",10,10,"Pedro Henrique Oliveira",99001122334,"Travessa da Amizade, 2223","(85) 91234-5678",212,"Pão de Centeio (pacote)",2,40,5.5,2,Padaria
+1,35,407,6.5,6.50,35,"2025-06-24 09:30:00",11,11,"Amanda Ribeiro Castro",55667788990,"Rua das Acácias, 2425","(27) 97654-3210",407,"Azeitona Verde (pote)",4,35,6.5,4,Frios
+2,35,808,6.2,12.40,35,"2025-06-24 09:30:00",11,11,"Amanda Ribeiro Castro",55667788990,"Rua das Acácias, 2425","(27) 97654-3210",808,"Alvejante sem Cloro (1L)",8,75,6.2,8,Limpeza
+3,35,916,6.5,19.50,35,"2025-06-24 09:30:00",11,11,"Amanda Ribeiro Castro",55667788990,"Rua das Acácias, 2425","(27) 97654-3210",916,"Absorvente (pacote)",9,50,6.5,9,"Higiene Pessoal"
+2,35,914,25,50.00,35,"2025-06-24 09:30:00",11,11,"Amanda Ribeiro Castro",55667788990,"Rua das Acácias, 2425","(27) 97654-3210",914,"Protetor Solar (frasco)",9,45,25,9,"Higiene Pessoal"
+1,35,817,7.1,7.10,35,"2025-06-24 09:30:00",11,11,"Amanda Ribeiro Castro",55667788990,"Rua das Acácias, 2425","(27) 97654-3210",817,"Saco de Lixo (rolo)",8,80,7.1,8,Limpeza
+3,35,1019,4.5,13.50,35,"2025-06-24 09:30:00",11,11,"Amanda Ribeiro Castro",55667788990,"Rua das Acácias, 2425","(27) 97654-3210",1019,"Purê de Batata Congelado (pacote)",10,55,4.5,10,Congelados
+1,115,611,3.5,3.50,115,"2025-07-27 10:00:00",11,11,"Amanda Ribeiro Castro",55667788990,"Rua das Acácias, 2425","(27) 97654-3210",611,"Vinagre (500ml)",6,85,3.5,6,Mercearia
+2,115,110,31.9,63.80,115,"2025-07-27 10:00:00",11,11,"Amanda Ribeiro Castro",55667788990,"Rua das Acácias, 2425","(27) 97654-3210",110,"Paleta Bovina (kg)",1,22,31.9,1,Açougue
+1,12,504,5.2,5.20,12,"2025-03-01 16:15:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",504,"Maçã Fuji (kg)",5,85,5.2,5,Hortifruti
+3,12,803,9.5,28.50,12,"2025-03-01 16:15:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",803,"Sabão em Pó (1kg)",8,80,9.5,8,Limpeza
+1,12,714,6.8,6.80,12,"2025-03-01 16:15:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",714,"Suco de Maracujá (1L)",7,65,6.8,7,Bebidas
+1,12,817,7.1,7.10,12,"2025-03-01 16:15:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",817,"Saco de Lixo (rolo)",8,80,7.1,8,Limpeza
+3,12,503,3,9.00,12,"2025-03-01 16:15:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",503,"Alface Americana (un)",5,40,3,5,Hortifruti
+3,12,503,3,9.00,12,"2025-03-01 16:15:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",503,"Alface Americana (un)",5,40,3,5,Hortifruti
+3,12,1016,9.9,29.70,12,"2025-03-01 16:15:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",1016,"Massa Folhada Congelada (pacote)",10,30,9.9,10,Congelados
+3,12,215,3.1,9.30,12,"2025-03-01 16:15:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",215,"Biscoito de Maizena (pacote)",2,55,3.1,2,Padaria
+3,52,514,6.8,20.40,52,"2025-09-17 09:30:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",514,"Mamão (un)",5,40,6.8,5,Hortifruti
+2,52,617,5.1,10.20,52,"2025-09-17 09:30:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",617,"Leite de Soja (1L)",6,70,5.1,6,Mercearia
+3,92,411,4.5,13.50,92,"2025-04-03 11:30:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",411,"Patê (pote)",4,25,4.5,4,Frios
+2,92,611,3.5,7.00,92,"2025-04-03 11:30:00",12,12,"Rafael Nunes Silva",00112233445,"Avenida Dom Pedro, 2627","(35) 96543-2109",611,"Vinagre (500ml)",6,85,3.5,6,Mercearia
+2,20,105,19.5,39.00,20,"2025-04-10 20:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",105,"Filé de Peito de Frango (kg)",1,90,19.5,1,Açougue
+1,20,204,3.5,3.50,20,"2025-04-10 20:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",204,"Biscoito de Polvilho (pacote)",2,75,3.5,2,Padaria
+1,20,716,3.8,3.80,20,"2025-04-10 20:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",716,"Guaracamp (lata)",7,95,3.8,7,Bebidas
+4,20,517,4.5,18.00,20,"2025-04-10 20:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",517,"Espinafre (maço)",5,40,4.5,5,Hortifruti
+1,20,701,8,8.00,20,"2025-04-10 20:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",701,"Refrigerante Cola (2L)",7,180,8,7,Bebidas
+1,20,701,8,8.00,20,"2025-04-10 20:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",701,"Refrigerante Cola (2L)",7,180,8,7,Bebidas
+3,20,217,8.5,25.50,20,"2025-04-10 20:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",217,"Mini Churros (pacote)",2,40,8.5,2,Padaria
+1,20,217,8.5,8.50,20,"2025-04-10 20:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",217,"Mini Churros (pacote)",2,40,8.5,2,Padaria
+1,60,214,6.2,6.20,60,"2025-10-27 13:15:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",214,"Pão de Batata (pacote)",2,35,6.2,2,Padaria
+2,60,615,1.8,3.60,60,"2025-10-27 13:15:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",615,"Fermento Biológico Seco (pacote)",6,120,1.8,6,Mercearia
+1,100,714,6.8,6.80,100,"2025-05-13 14:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",714,"Suco de Maracujá (1L)",7,65,6.8,7,Bebidas
+2,100,415,5.2,10.40,100,"2025-05-13 14:00:00",13,13,"Camila Souza Oliveira",66778899001,"Travessa das Flores, 2829","(47) 95432-1098",415,"Pasta de Queijo (pote)",4,20,5.2,4,Frios
+2,28,1005,12.8,25.60,28,"2025-05-20 10:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",1005,"Sorvete de Chocolate (pote)",10,55,12.8,10,Congelados
+1,28,907,8.9,8.90,28,"2025-05-20 10:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",907,"Desodorante Roll-on (un)",9,75,8.9,9,"Higiene Pessoal"
+1,28,914,25,25.00,28,"2025-05-20 10:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",914,"Protetor Solar (frasco)",9,45,25,9,"Higiene Pessoal"
+1,28,716,3.8,3.80,28,"2025-05-20 10:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",716,"Guaracamp (lata)",7,95,3.8,7,Bebidas
+2,28,1001,15,30.00,28,"2025-05-20 10:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",1001,"Pizza Congelada (un)",10,70,15,10,Congelados
+2,28,1001,15,30.00,28,"2025-05-20 10:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",1001,"Pizza Congelada (un)",10,70,15,10,Congelados
+3,28,1015,5.1,15.30,28,"2025-05-20 10:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",1015,"Espinafre Congelado (pacote)",10,75,5.1,10,Congelados
+2,28,210,2.8,5.60,28,"2025-05-20 10:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",210,"Baguete (un)",2,65,2.8,2,Padaria
+1,68,1002,8.9,8.90,68,"2025-12-06 16:45:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",1002,"Nuggets de Frango (300g)",10,110,8.9,10,Congelados
+2,68,203,1.2,2.40,68,"2025-12-06 16:45:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",203,"Rosquinha Doce (un)",2,100,1.2,2,Padaria
+1,68,1002,8.9,8.90,68,"2025-12-06 16:45:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",1002,"Nuggets de Frango (300g)",10,110,8.9,10,Congelados
+2,68,203,1.2,2.40,68,"2025-12-06 16:45:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",203,"Rosquinha Doce (un)",2,100,1.2,2,Padaria
+1,108,917,5.5,5.50,108,"2025-06-22 14:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",917,"Pasta de Dente Infantil (un)",9,75,5.5,9,"Higiene Pessoal"
+2,108,316,4.2,8.40,108,"2025-06-22 14:30:00",14,14,"Bruno Pereira Lima",11223344550,"Rua da Liberdade, 3031","(73) 94321-0987",316,"Coalhada (pote)",3,65,4.2,3,Laticínios
+1,4,1001,15,15.00,4,"2025-01-20 11:45:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",1001,"Pizza Congelada (un)",10,70,15,10,Congelados
+2,4,302,28.5,57.00,4,"2025-01-20 11:45:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",302,"Queijo Muçarela (kg)",3,45,28.5,3,Laticínios
+1,4,911,3.8,3.80,4,"2025-01-20 11:45:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",911,"Algodão (pacote)",9,70,3.8,9,"Higiene Pessoal"
+2,4,1018,8.9,17.80,4,"2025-01-20 11:45:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",1018,"Nhoque Congelado (pacote)",10,25,8.9,10,Congelados
+2,4,502,2.8,5.60,4,"2025-01-20 11:45:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",502,"Banana Prata (kg)",5,120,2.8,5,Hortifruti
+2,4,502,2.8,5.60,4,"2025-01-20 11:45:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",502,"Banana Prata (kg)",5,120,2.8,5,Hortifruti
+2,4,1011,5.9,11.80,4,"2025-01-20 11:45:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",1011,"Mandioca Congelada (pacote)",10,70,5.9,10,Congelados
+4,44,208,4.9,19.60,44,"2025-08-08 18:00:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",208,"Pão Integral (pacote)",2,50,4.9,2,Padaria
+1,44,712,7.8,7.80,44,"2025-08-08 18:00:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",712,"Refrigerante Limão (2L)",7,130,7.8,7,Bebidas
+1,84,708,7,7.00,84,"2025-02-22 10:30:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",708,"Suco de Uva (1L)",7,80,7,7,Bebidas
+2,84,807,4.5,9.00,84,"2025-02-22 10:30:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",807,"Limpador Multiuso (500ml)",8,85,4.5,8,Limpeza
+1,127,1013,4.7,4.70,127,"2025-09-26 19:30:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",1013,"Ervilha Congelada (pacote)",10,85,4.7,10,Congelados
+2,127,614,4.2,8.40,127,"2025-09-26 19:30:00",15,15,"Isabela Costa Santos",77889900119,"Avenida Beira Mar, 3233","(92) 93210-9876",614,"Milho de Pipoca (500g)",6,90,4.2,6,Mercearia
+3,36,509,3,9.00,36,"2025-06-29 15:15:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",509,"Pepino (kg)",5,70,3,5,Hortifruti
+1,36,710,4.2,4.20,36,"2025-06-29 15:15:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",710,"Água Tônica (lata)",7,100,4.2,7,Bebidas
+1,36,1019,4.5,4.50,36,"2025-06-29 15:15:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",1019,"Purê de Batata Congelado (pacote)",10,55,4.5,10,Congelados
+2,36,817,7.1,14.20,36,"2025-06-29 15:15:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",817,"Saco de Lixo (rolo)",8,80,7.1,8,Limpeza
+3,36,702,3.5,10.50,36,"2025-06-29 15:15:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",702,"Cerveja Pilsen (lata)",7,300,3.5,7,Bebidas
+3,36,702,3.5,10.50,36,"2025-06-29 15:15:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",702,"Cerveja Pilsen (lata)",7,300,3.5,7,Bebidas
+1,36,217,8.5,8.50,36,"2025-06-29 15:15:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",217,"Mini Churros (pacote)",2,40,8.5,2,Padaria
+3,36,211,1.5,4.50,36,"2025-06-29 15:15:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",211,"Pão Doce (un)",2,50,1.5,2,Padaria
+1,116,212,5.5,5.50,116,"2025-08-01 15:30:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",212,"Pão de Centeio (pacote)",2,40,5.5,2,Padaria
+2,116,911,3.8,7.60,116,"2025-08-01 15:30:00",16,16,"Thiago Alves Rodrigues",22334455668,"Rua da Esperança, 3435","(19) 92109-8765",911,"Algodão (pacote)",9,70,3.8,9,"Higiene Pessoal"
+2,13,305,5.75,11.50,13,"2025-03-06 21:00:00",17,17,"Luana Ferreira Gomes",88990011227,"Travessa da Alegria, 3637","(38) 91098-7654",305,"Requeijão Cremoso (pote)",3,80,5.75,3,Laticínios
+1,13,705,29.9,29.90,13,"2025-03-06 21:00:00",17,17,"Luana Ferreira Gomes",88990011227,"Travessa da Alegria, 3637","(38) 91098-7654",705,"Vinho Tinto Seco (garrafa)",7,40,29.9,7,Bebidas
+2,13,813,3.5,7.00,13,"2025-03-06 21:00:00",17,17,"Luana Ferreira Gomes",88990011227,"Travessa da Alegria, 3637","(38) 91098-7654",813,"Esponja Multiuso (pacote)",8,115,3.5,8,Limpeza
+4,13,1012,14,56.00,13,"2025-03-06 21:00:00",17,17,"Luana Ferreira Gomes",88990011227,"Travessa da Alegria, 3637","(38) 91098-7654",1012,"Peixe Empanado Congelado (pacote)",10,50,14,10,Congelados
+4,13,414,16.5,66.00,13,"2025-03-06 21:00:00",17,17,"Luana Ferreira Gomes",88990011227,"Travessa da Alegria, 3637","(38) 91098-7654",414,"Salsichão (kg)",4,50,16.5,4,Frios
+4,53,916,6.5,26.00,53,"2025-09-22 15:15:00",17,17,"Luana Ferreira Gomes",88990011227,"Travessa da Alegria, 3637","(38) 91098-7654",916,"Absorvente (pacote)",9,50,6.5,9,"Higiene Pessoal"
+1,53,113,8.9,8.90,53,"2025-09-22 15:15:00",17,17,"Luana Ferreira Gomes",88990011227,"Travessa da Alegria, 3637","(38) 91098-7654",113,"Coração de Frango (kg)",1,45,8.9,1,Açougue
+4,93,1010,22,88.00,93,"2025-04-08 17:00:00",17,17,"Luana Ferreira Gomes",88990011227,"Travessa da Alegria, 3637","(38) 91098-7654",1010,"Frango Inteiro Congelado (un)",10,35,22,10,Congelados
+1,93,811,2,2.00,93,"2025-04-08 17:00:00",17,17,"Luana Ferreira Gomes",88990011227,"Travessa da Alegria, 3637","(38) 91098-7654",811,"Flanela (un)",8,105,2,8,Limpeza
+1,21,307,4.1,4.10,21,"2025-04-15 12:45:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",307,"Leite Condensado (lata)",3,100,4.1,3,Laticínios
+2,21,805,4.2,8.40,21,"2025-04-15 12:45:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",805,"Esponja de Aço (pacote)",8,130,4.2,8,Limpeza
+2,21,815,8.2,16.40,21,"2025-04-15 12:45:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",815,"Lustra Móveis (frasco)",8,55,8.2,8,Limpeza
+1,21,711,15.5,15.50,21,"2025-04-15 12:45:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",711,"Cachaça (garrafa)",7,30,15.5,7,Bebidas
+4,21,915,2.1,8.40,21,"2025-04-15 12:45:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",915,"Lenço de Papel (pacote)",9,100,2.1,9,"Higiene Pessoal"
+2,21,211,1.5,3.00,21,"2025-04-15 12:45:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",211,"Pão Doce (un)",2,50,1.5,2,Padaria
+1,61,117,19.5,19.50,61,"2025-11-01 18:00:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",117,"Linguiça Calabresa (kg)",1,58,19.5,1,Açougue
+2,61,201,0.75,1.50,61,"2025-11-01 18:00:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",201,"Pão Francês (un)",2,500,0.75,2,Padaria
+1,61,117,19.5,19.50,61,"2025-11-01 18:00:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",117,"Linguiça Calabresa (kg)",1,58,19.5,1,Açougue
+2,61,201,0.75,1.50,61,"2025-11-01 18:00:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",201,"Pão Francês (un)",2,500,0.75,2,Padaria
+1,101,416,11.5,11.50,101,"2025-05-18 19:30:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",416,"Queijo Gouda Fatiado (100g)",4,25,11.5,4,Frios
+2,101,616,6.9,13.80,101,"2025-05-18 19:30:00",18,18,"Gustavo Rocha Pereira",33445566776,"Avenida dos Lagos, 3839","(62) 90987-6543",616,"Óleo de Girassol (900ml)",6,55,6.9,6,Mercearia
+1,29,106,28.5,28.50,29,"2025-05-25 16:15:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",106,"Costela Bovina (kg)",1,25,28.5,1,Açougue
+2,29,607,2.1,4.20,29,"2025-05-25 16:15:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",607,"Sal Refinado (1kg)",6,95,2.1,6,Mercearia
+2,29,817,7.1,14.20,29,"2025-05-25 16:15:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",817,"Saco de Lixo (rolo)",8,80,7.1,8,Limpeza
+2,29,913,12.5,25.00,29,"2025-05-25 16:15:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",913,"Hidratante Corporal (frasco)",9,65,12.5,9,"Higiene Pessoal"
+1,29,816,5.9,5.90,29,"2025-05-25 16:15:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",816,"Limpa Vidros (frasco)",8,60,5.9,8,Limpeza
+3,29,212,5.5,16.50,29,"2025-05-25 16:15:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",212,"Pão de Centeio (pacote)",2,40,5.5,2,Padaria
+1,69,904,4.9,4.90,69,"2025-12-11 09:30:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",904,"Creme Dental (un)",9,115,4.9,9,"Higiene Pessoal"
+2,69,803,9.5,19.00,69,"2025-12-11 09:30:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",803,"Sabão em Pó (1kg)",8,80,9.5,8,Limpeza
+1,69,904,4.9,4.90,69,"2025-12-11 09:30:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",904,"Creme Dental (un)",9,115,4.9,9,"Higiene Pessoal"
+2,69,803,9.5,19.00,69,"2025-12-11 09:30:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",803,"Sabão em Pó (1kg)",8,80,9.5,8,Limpeza
+1,109,617,5.1,5.10,109,"2025-06-27 20:00:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",617,"Leite de Soja (1L)",6,70,5.1,6,Mercearia
+2,109,416,11.5,23.00,109,"2025-06-27 20:00:00",19,19,"Mariana Barbosa Souza",99001122335,"Rua do Campo, 4041","(83) 99876-5432",416,"Queijo Gouda Fatiado (100g)",4,25,11.5,4,Frios
+3,5,502,2.8,8.40,5,"2025-01-25 16:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",502,"Banana Prata (kg)",5,120,2.8,5,Hortifruti
+1,5,602,7.2,7.20,5,"2025-01-25 16:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",602,"Feijão Carioca (1kg)",6,150,7.2,6,Mercearia
+2,5,702,3.5,7.00,5,"2025-01-25 16:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",702,"Cerveja Pilsen (lata)",7,300,3.5,7,Bebidas
+3,5,209,3.5,10.50,5,"2025-01-25 16:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",209,"Broa de Milho (un)",2,30,3.5,2,Padaria
+3,5,206,7.2,21.60,5,"2025-01-25 16:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",206,"Pão de Queijo (pacote)",2,60,7.2,2,Padaria
+1,5,312,11.2,11.20,5,"2025-01-25 16:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",312,"Queijo Parmesão Ralado (pacote)",3,55,11.2,3,Laticínios
+2,5,415,5.2,10.40,5,"2025-01-25 16:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",415,"Pasta de Queijo (pote)",4,20,5.2,4,Frios
+1,45,810,3.1,3.10,45,"2025-08-13 10:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",810,"Detergente para Louças (500ml)",8,120,3.1,8,Limpeza
+3,45,313,6.8,20.40,45,"2025-08-13 10:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",313,"Leite de Coco (vidro)",3,70,6.8,3,Laticínios
+1,85,909,7.8,7.80,85,"2025-02-27 16:00:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",909,"Barbeador Descartável (pacote)",9,60,7.8,9,"Higiene Pessoal"
+2,85,309,3.2,6.40,85,"2025-02-27 16:00:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",309,"Creme de Leite (lata)",3,90,3.2,3,Laticínios
+4,123,913,12.5,50.00,123,"2025-09-06 10:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",913,"Hidratante Corporal (frasco)",9,65,12.5,9,"Higiene Pessoal"
+1,123,417,7.2,7.20,123,"2025-09-06 10:30:00",20,20,"Felipe Castro Lima",44556677884,"Travessa da Mata, 4243","(98) 98765-4320",417,"Azeitona Preta (pote)",4,30,7.2,4,Frios
+2,37,1007,7.5,15.00,37,"2025-07-04 20:00:00",21,21,"Beatriz Oliveira Costa",55667788991,"Rua da Montanha, 4445","(86) 97654-3211",1007,"Polpa de Frutas Congelada (pacote)",10,90,7.5,10,Congelados
+1,37,909,7.8,7.80,37,"2025-07-04 20:00:00",21,21,"Beatriz Oliveira Costa",55667788991,"Rua da Montanha, 4445","(86) 97654-3211",909,"Barbeador Descartável (pacote)",9,60,7.8,9,"Higiene Pessoal"
+2,37,217,8.5,17.00,37,"2025-07-04 20:00:00",21,21,"Beatriz Oliveira Costa",55667788991,"Rua da Montanha, 4445","(86) 97654-3211",217,"Mini Churros (pacote)",2,40,8.5,2,Padaria
+2,37,717,65,130.00,37,"2025-07-04 20:00:00",21,21,"Beatriz Oliveira Costa",55667788991,"Rua da Montanha, 4445","(86) 97654-3211",717,"Conhaque (garrafa)",7,10,65,7,Bebidas
+1,37,211,1.5,1.50,37,"2025-07-04 20:00:00",21,21,"Beatriz Oliveira Costa",55667788991,"Rua da Montanha, 4445","(86) 97654-3211",211,"Pão Doce (un)",2,50,1.5,2,Padaria
+1,117,1019,4.5,4.50,117,"2025-08-06 21:00:00",21,21,"Beatriz Oliveira Costa",55667788991,"Rua da Montanha, 4445","(86) 97654-3211",1019,"Purê de Batata Congelado (pacote)",10,55,4.5,10,Congelados
+2,117,610,19.9,39.80,117,"2025-08-06 21:00:00",21,21,"Beatriz Oliveira Costa",55667788991,"Rua da Montanha, 4445","(86) 97654-3211",610,"Azeite de Oliva (500ml)",6,70,19.9,6,Mercearia
+4,14,203,1.2,4.80,14,"2025-03-11 13:45:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",203,"Rosquinha Doce (un)",2,100,1.2,2,Padaria
+1,14,904,4.9,4.90,14,"2025-03-11 13:45:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",904,"Creme Dental (un)",9,115,4.9,9,"Higiene Pessoal"
+1,14,1013,4.7,4.70,14,"2025-03-11 13:45:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",1013,"Ervilha Congelada (pacote)",10,85,4.7,10,Congelados
+2,14,516,7.5,15.00,14,"2025-03-11 13:45:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",516,"Melão (un)",5,35,7.5,5,Hortifruti
+4,14,301,3.8,15.20,14,"2025-03-11 13:45:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",301,"Leite Integral (litro)",3,150,3.8,3,Laticínios
+4,14,301,3.8,15.20,14,"2025-03-11 13:45:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",301,"Leite Integral (litro)",3,150,3.8,3,Laticínios
+4,14,417,7.2,28.80,14,"2025-03-11 13:45:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",417,"Azeitona Preta (pote)",4,30,7.2,4,Frios
+4,14,1014,11.5,46.00,14,"2025-03-11 13:45:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",1014,"Mini Pizza Congelada (pacote)",10,45,11.5,10,Congelados
+1,54,212,5.5,5.50,54,"2025-09-27 20:00:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",212,"Pão de Centeio (pacote)",2,40,5.5,2,Padaria
+3,54,717,65,195.00,54,"2025-09-27 20:00:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",717,"Conhaque (garrafa)",7,10,65,7,Bebidas
+1,94,210,2.8,2.80,94,"2025-04-13 09:00:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",210,"Baguete (un)",2,65,2.8,2,Padaria
+3,94,911,3.8,11.40,94,"2025-04-13 09:00:00",22,22,"Ricardo Santos Alves",00112233446,"Avenida das Flores Novas, 4647","(24) 96543-2110",911,"Algodão (pacote)",9,70,3.8,9,"Higiene Pessoal"
+3,22,506,3.8,11.40,22,"2025-04-20 17:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",506,"Laranja (kg)",5,100,3.8,5,Hortifruti
+1,22,707,3.2,3.20,22,"2025-04-20 17:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",707,"Cerveja Lager (lata)",7,280,3.2,7,Bebidas
+1,22,1015,5.1,5.10,22,"2025-04-20 17:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",1015,"Espinafre Congelado (pacote)",10,75,5.1,10,Congelados
+1,22,715,85,85.00,22,"2025-04-20 17:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",715,"Whisky (garrafa)",7,15,85,7,Bebidas
+2,22,201,0.75,1.50,22,"2025-04-20 17:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",201,"Pão Francês (un)",2,500,0.75,2,Padaria
+2,22,201,0.75,1.50,22,"2025-04-20 17:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",201,"Pão Francês (un)",2,500,0.75,2,Padaria
+4,22,1014,11.5,46.00,22,"2025-04-20 17:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",1014,"Mini Pizza Congelada (pacote)",10,45,11.5,10,Congelados
+2,22,910,7.2,14.40,22,"2025-04-20 17:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",910,"Sabonete Líquido (frasco)",9,90,7.2,9,"Higiene Pessoal"
+3,62,501,4.5,13.50,62,"2025-11-06 10:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",501,"Tomate (kg)",5,75,4.5,5,Hortifruti
+1,62,901,10.5,10.50,62,"2025-11-06 10:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",901,"Shampoo (350ml)",9,95,10.5,9,"Higiene Pessoal"
+3,62,501,4.5,13.50,62,"2025-11-06 10:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",501,"Tomate (kg)",5,75,4.5,5,Hortifruti
+1,62,901,10.5,10.50,62,"2025-11-06 10:30:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",901,"Shampoo (350ml)",9,95,10.5,9,"Higiene Pessoal"
+3,102,1014,11.5,34.50,102,"2025-05-23 10:00:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",1014,"Mini Pizza Congelada (pacote)",10,45,11.5,10,Congelados
+1,102,216,5.8,5.80,102,"2025-05-23 10:00:00",23,23,"Letícia Pereira Rodrigues",66778899002,"Travessa do Rio, 4849","(53) 95432-1109",216,"Pão de Milho (pacote)",2,30,5.8,2,Padaria
+3,30,309,3.2,9.60,30,"2025-05-30 21:00:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",309,"Creme de Leite (lata)",3,90,3.2,3,Laticínios
+1,30,807,4.5,4.50,30,"2025-05-30 21:00:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",807,"Limpador Multiuso (500ml)",8,85,4.5,8,Limpeza
+1,30,1017,4.1,4.10,30,"2025-05-30 21:00:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",1017,"Polenta Congelada (pacote)",10,60,4.1,10,Congelados
+2,30,816,5.9,11.80,30,"2025-05-30 21:00:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",816,"Limpa Vidros (frasco)",8,60,5.9,8,Limpeza
+3,30,302,28.5,85.50,30,"2025-05-30 21:00:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",302,"Queijo Muçarela (kg)",3,45,28.5,3,Laticínios
+3,30,302,28.5,85.50,30,"2025-05-30 21:00:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",302,"Queijo Muçarela (kg)",3,45,28.5,3,Laticínios
+1,30,217,8.5,8.50,30,"2025-05-30 21:00:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",217,"Mini Churros (pacote)",2,40,8.5,2,Padaria
+3,30,911,3.8,11.40,30,"2025-05-30 21:00:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",911,"Algodão (pacote)",9,70,3.8,9,"Higiene Pessoal"
+1,70,1003,6.2,6.20,70,"2025-12-16 15:15:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",1003,"Legumes Congelados (500g)",10,65,6.2,10,Congelados
+2,70,104,59.99,119.98,70,"2025-12-16 15:15:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",104,"Picanha Bovina (kg)",1,35,59.99,1,Açougue
+1,70,1003,6.2,6.20,70,"2025-12-16 15:15:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",1003,"Legumes Congelados (500g)",10,65,6.2,10,Congelados
+2,70,104,59.99,119.98,70,"2025-12-16 15:15:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",104,"Picanha Bovina (kg)",1,35,59.99,1,Açougue
+1,110,916,6.5,6.50,110,"2025-07-02 10:30:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",916,"Absorvente (pacote)",9,50,6.5,9,"Higiene Pessoal"
+2,110,117,19.5,39.00,110,"2025-07-02 10:30:00",24,24,"Vinícius Gomes Souza",11223344551,"Rua da Colina, 5051","(77) 94321-1098",117,"Linguiça Calabresa (kg)",1,58,19.5,1,Açougue
+1,6,102,12.5,12.50,6,"2025-01-30 09:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",102,"Coxa de Frango (kg)",1,120,12.5,1,Açougue
+4,6,201,0.75,3.00,6,"2025-01-30 09:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",201,"Pão Francês (un)",2,500,0.75,2,Padaria
+1,6,902,11,11.00,6,"2025-01-30 09:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",902,"Condicionador (350ml)",9,85,11,9,"Higiene Pessoal"
+1,6,811,2,2.00,6,"2025-01-30 09:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",811,"Flanela (un)",8,105,2,8,Limpeza
+2,6,515,3.7,7.40,6,"2025-01-30 09:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",515,"Abobrinha (kg)",5,65,3.7,5,Hortifruti
+2,6,102,12.5,25.00,6,"2025-01-30 09:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",102,"Coxa de Frango (kg)",1,120,12.5,1,Açougue
+2,6,102,12.5,25.00,6,"2025-01-30 09:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",102,"Coxa de Frango (kg)",1,120,12.5,1,Açougue
+2,6,417,7.2,14.40,6,"2025-01-30 09:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",417,"Azeitona Preta (pote)",4,30,7.2,4,Frios
+2,6,416,11.5,23.00,6,"2025-01-30 09:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",416,"Queijo Gouda Fatiado (100g)",4,25,11.5,4,Frios
+2,46,1011,5.9,11.80,46,"2025-08-18 16:15:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",1011,"Mandioca Congelada (pacote)",10,70,5.9,10,Congelados
+1,46,109,11.8,11.80,46,"2025-08-18 16:15:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",109,"Asa de Frango (kg)",1,65,11.8,1,Açougue
+1,86,608,5.1,5.10,86,"2025-03-04 08:30:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",608,"Farinha de Trigo (1kg)",6,140,5.1,6,Mercearia
+2,86,406,3.5,7.00,86,"2025-03-04 08:30:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",406,"Mortadela Fatiada (100g)",4,70,3.5,4,Frios
+1,128,915,2.1,2.10,128,"2025-10-01 10:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",915,"Lenço de Papel (pacote)",9,100,2.1,9,"Higiene Pessoal"
+2,128,416,11.5,23.00,128,"2025-10-01 10:00:00",25,25,"Carolina Rocha Lima",77889900110,"Avenida da Praia Grande, 5253","(96) 93210-9877",416,"Queijo Gouda Fatiado (100g)",4,25,11.5,4,Frios
+1,38,107,9.99,9.99,38,"2025-07-09 12:45:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",107,"Salsicha (kg)",1,70,9.99,1,Açougue
+2,38,609,2.8,5.60,38,"2025-07-09 12:45:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",609,"Biscoito Água e Sal (pacote)",6,115,2.8,6,Mercearia
+1,38,917,5.5,5.50,38,"2025-07-09 12:45:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",917,"Pasta de Dente Infantil (un)",9,75,5.5,9,"Higiene Pessoal"
+3,38,914,25,75.00,38,"2025-07-09 12:45:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",914,"Protetor Solar (frasco)",9,45,25,9,"Higiene Pessoal"
+1,38,102,12.5,12.50,38,"2025-07-09 12:45:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",102,"Coxa de Frango (kg)",1,120,12.5,1,Açougue
+1,38,102,12.5,12.50,38,"2025-07-09 12:45:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",102,"Coxa de Frango (kg)",1,120,12.5,1,Açougue
+2,38,917,5.5,11.00,38,"2025-07-09 12:45:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",917,"Pasta de Dente Infantil (un)",9,75,5.5,9,"Higiene Pessoal"
+1,38,912,2.8,2.80,38,"2025-07-09 12:45:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",912,"Cotonete (caixa)",9,140,2.8,9,"Higiene Pessoal"
+1,118,912,2.8,2.80,118,"2025-08-11 11:30:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",912,"Cotonete (caixa)",9,140,2.8,9,"Higiene Pessoal"
+2,118,317,16.8,33.60,118,"2025-08-11 11:30:00",26,26,"Eduardo Barbosa Castro",22334455669,"Rua do Bosque, 5455","(22) 92109-8766",317,"Mussarela Ralada (pacote)",3,48,16.8,3,Laticínios
+1,15,402,7.5,7.50,15,"2025-03-16 18:30:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",402,"Queijo Prato Fatiado (100g)",4,55,7.5,4,Frios
+2,15,1003,6.2,12.40,15,"2025-03-16 18:30:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",1003,"Legumes Congelados (500g)",10,65,6.2,10,Congelados
+3,15,211,1.5,4.50,15,"2025-03-16 18:30:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",211,"Pão Doce (un)",2,50,1.5,2,Padaria
+4,15,809,5.5,22.00,15,"2025-03-16 18:30:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",809,"Pano de Chão (un)",8,90,5.5,8,Limpeza
+3,15,813,3.5,10.50,15,"2025-03-16 18:30:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",813,"Esponja Multiuso (pacote)",8,115,3.5,8,Limpeza
+3,15,1018,8.9,26.70,15,"2025-03-16 18:30:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",1018,"Nhoque Congelado (pacote)",10,25,8.9,10,Congelados
+1,55,816,5.9,5.90,55,"2025-10-02 12:45:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",816,"Limpa Vidros (frasco)",8,60,5.9,8,Limpeza
+2,55,316,4.2,8.40,55,"2025-10-02 12:45:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",316,"Coalhada (pote)",3,65,4.2,3,Laticínios
+1,95,612,4.5,4.50,95,"2025-04-18 14:30:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",612,"Macarrão Parafuso (500g)",6,100,4.5,6,Mercearia
+2,95,711,15.5,31.00,95,"2025-04-18 14:30:00",27,27,"Renata Ribeiro Pereira",88990011228,"Travessa da Ponte, 5657","(43) 91098-7655",711,"Cachaça (garrafa)",7,30,15.5,7,Bebidas
+1,23,404,7.99,7.99,23,"2025-04-25 10:00:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",404,"Peito de Peru Fatiado (100g)",4,45,7.99,4,Frios
+2,23,1004,16.5,33.00,23,"2025-04-25 10:00:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",1004,"Hambúrguer Bovino (pacote)",10,80,16.5,10,Congelados
+3,23,213,9.5,28.50,23,"2025-04-25 10:00:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",213,"Bolo Inglês (un)",2,25,9.5,2,Padaria
+2,23,912,2.8,5.60,23,"2025-04-25 10:00:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",912,"Cotonete (caixa)",9,140,2.8,9,"Higiene Pessoal"
+1,23,815,8.2,8.20,23,"2025-04-25 10:00:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",815,"Lustra Móveis (frasco)",8,55,8.2,8,Limpeza
+3,23,912,2.8,8.40,23,"2025-04-25 10:00:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",912,"Cotonete (caixa)",9,140,2.8,9,"Higiene Pessoal"
+4,63,1001,15,60.00,63,"2025-11-11 16:15:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",1001,"Pizza Congelada (un)",10,70,15,10,Congelados
+1,63,302,28.5,28.50,63,"2025-11-11 16:15:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",302,"Queijo Muçarela (kg)",3,45,28.5,3,Laticínios
+4,63,1001,15,60.00,63,"2025-11-11 16:15:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",1001,"Pizza Congelada (un)",10,70,15,10,Congelados
+1,63,302,28.5,28.50,63,"2025-11-11 16:15:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",302,"Queijo Muçarela (kg)",3,45,28.5,3,Laticínios
+4,103,916,6.5,26.00,103,"2025-05-28 15:30:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",916,"Absorvente (pacote)",9,50,6.5,9,"Higiene Pessoal"
+1,103,316,4.2,4.20,103,"2025-05-28 15:30:00",28,28,"Daniel Nunes Gomes",33445566777,"Avenida da Lagoa, 5859","(64) 90987-6544",316,"Coalhada (pote)",3,65,4.2,3,Laticínios
+2,31,508,2.2,4.40,31,"2025-06-04 13:45:00",29,29,"Patrícia Alves Oliveira",99001122336,"Rua do Horizonte, 6061","(82) 99876-5433",508,"Melancia (kg)",5,95,2.2,5,Hortifruti
+1,31,709,6.5,6.50,31,"2025-06-04 13:45:00",29,29,"Patrícia Alves Oliveira",99001122336,"Rua do Horizonte, 6061","(82) 99876-5433",709,"Energético (lata)",7,120,6.5,7,Bebidas
+3,31,215,3.1,9.30,31,"2025-06-04 13:45:00",29,29,"Patrícia Alves Oliveira",99001122336,"Rua do Horizonte, 6061","(82) 99876-5433",215,"Biscoito de Maizena (pacote)",2,55,3.1,2,Padaria
+3,31,812,9.1,27.30,31,"2025-06-04 13:45:00",29,29,"Patrícia Alves Oliveira",99001122336,"Rua do Horizonte, 6061","(82) 99876-5433",812,"Amaciante de Roupas (2L)",8,80,9.1,8,Limpeza
+2,31,716,3.8,7.60,31,"2025-06-04 13:45:00",29,29,"Patrícia Alves Oliveira",99001122336,"Rua do Horizonte, 6061","(82) 99876-5433",716,"Guaracamp (lata)",7,95,3.8,7,Bebidas
+1,31,913,12.5,12.50,31,"2025-06-04 13:45:00",29,29,"Patrícia Alves Oliveira",99001122336,"Rua do Horizonte, 6061","(82) 99876-5433",913,"Hidratante Corporal (frasco)",9,65,12.5,9,"Higiene Pessoal"
+1,111,317,16.8,16.80,111,"2025-07-07 16:00:00",29,29,"Patrícia Alves Oliveira",99001122336,"Rua do Horizonte, 6061","(82) 99876-5433",317,"Mussarela Ralada (pacote)",3,48,16.8,3,Laticínios
+2,111,610,19.9,39.80,111,"2025-07-07 16:00:00",29,29,"Patrícia Alves Oliveira",99001122336,"Rua do Horizonte, 6061","(82) 99876-5433",610,"Azeite de Oliva (500ml)",6,70,19.9,6,Mercearia
+2,7,401,6.99,13.98,7,"2025-02-04 15:45:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",401,"Presunto Fatiado (100g)",4,60,6.99,4,Frios
+1,7,303,2.2,2.20,7,"2025-02-04 15:45:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",303,"Iogurte Natural (un)",3,90,2.2,3,Laticínios
+1,7,703,6.5,6.50,7,"2025-02-04 15:45:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",703,"Suco de Laranja (1L)",7,90,6.5,7,Bebidas
+3,7,513,6.2,18.60,7,"2025-02-04 15:45:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",513,"Brócolis (un)",5,50,6.2,5,Hortifruti
+4,7,1007,7.5,30.00,7,"2025-02-04 15:45:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",1007,"Polpa de Frutas Congelada (pacote)",10,90,7.5,10,Congelados
+2,7,412,9.8,19.60,7,"2025-02-04 15:45:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",412,"Lombo Canadense Fatiado (100g)",4,30,9.8,4,Frios
+3,7,1018,8.9,26.70,7,"2025-02-04 15:45:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",1018,"Nhoque Congelado (pacote)",10,25,8.9,10,Congelados
+1,47,612,4.5,4.50,47,"2025-08-23 21:00:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",612,"Macarrão Parafuso (500g)",6,100,4.5,6,Mercearia
+2,47,412,9.8,19.60,47,"2025-08-23 21:00:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",412,"Lombo Canadense Fatiado (100g)",4,30,9.8,4,Frios
+1,87,709,6.5,6.50,87,"2025-03-09 14:00:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",709,"Energético (lata)",7,120,6.5,7,Bebidas
+2,87,310,8.7,17.40,87,"2025-03-09 14:00:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",310,"Ricota Fresca (un)",3,35,8.7,3,Laticínios
+1,124,213,9.5,9.50,124,"2025-09-11 16:00:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",213,"Bolo Inglês (un)",2,25,9.5,2,Padaria
+3,124,711,15.5,46.50,124,"2025-09-11 16:00:00",30,30,"Marcelo Souza Santos",44556677885,"Travessa do Sol Nascente, 6263","(99) 98765-4321",711,"Cachaça (garrafa)",7,30,15.5,7,Bebidas
+3,39,311,2.9,8.70,39,"2025-07-14 17:30:00",31,31,"Juliano Costa Ribeiro",55667788992,"Rua da Cachoeira, 6465","(87) 97654-3212",311,"Bebida Láctea (un)",3,110,2.9,3,Laticínios
+1,39,809,5.5,5.50,39,"2025-07-14 17:30:00",31,31,"Juliano Costa Ribeiro",55667788992,"Rua da Cachoeira, 6465","(87) 97654-3212",809,"Pano de Chão (un)",8,90,5.5,8,Limpeza
+3,39,116,21,63.00,39,"2025-07-14 17:30:00",31,31,"Juliano Costa Ribeiro",55667788992,"Rua da Cachoeira, 6465","(87) 97654-3212",116,"Rabada Bovina (kg)",1,12,21,1,Açougue
+1,39,714,6.8,6.80,39,"2025-07-14 17:30:00",31,31,"Juliano Costa Ribeiro",55667788992,"Rua da Cachoeira, 6465","(87) 97654-3212",714,"Suco de Maracujá (1L)",7,65,6.8,7,Bebidas
+3,39,910,7.2,21.60,39,"2025-07-14 17:30:00",31,31,"Juliano Costa Ribeiro",55667788992,"Rua da Cachoeira, 6465","(87) 97654-3212",910,"Sabonete Líquido (frasco)",9,90,7.2,9,"Higiene Pessoal"
+2,39,912,2.8,5.60,39,"2025-07-14 17:30:00",31,31,"Juliano Costa Ribeiro",55667788992,"Rua da Cachoeira, 6465","(87) 97654-3212",912,"Cotonete (caixa)",9,140,2.8,9,"Higiene Pessoal"
+1,119,711,15.5,15.50,119,"2025-08-16 17:00:00",31,31,"Juliano Costa Ribeiro",55667788992,"Rua da Cachoeira, 6465","(87) 97654-3212",711,"Cachaça (garrafa)",7,30,15.5,7,Bebidas
+2,119,611,3.5,7.00,119,"2025-08-16 17:00:00",31,31,"Juliano Costa Ribeiro",55667788992,"Rua da Cachoeira, 6465","(87) 97654-3212",611,"Vinagre (500ml)",6,85,3.5,6,Mercearia
+1,16,104,59.99,59.99,16,"2025-03-21 11:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",104,"Picanha Bovina (kg)",1,35,59.99,1,Açougue
+2,16,605,3.9,7.80,16,"2025-03-21 11:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",605,"Açúcar Refinado (1kg)",6,190,3.9,6,Mercearia
+1,16,715,85,85.00,16,"2025-03-21 11:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",715,"Whisky (garrafa)",7,15,85,7,Bebidas
+3,16,814,4.9,14.70,16,"2025-03-21 11:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",814,"Água Sanitária Concentrada (1L)",8,70,4.9,8,Limpeza
+3,16,402,7.5,22.50,16,"2025-03-21 11:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",402,"Queijo Prato Fatiado (100g)",4,55,7.5,4,Frios
+3,16,402,7.5,22.50,16,"2025-03-21 11:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",402,"Queijo Prato Fatiado (100g)",4,55,7.5,4,Frios
+3,16,216,5.8,17.40,16,"2025-03-21 11:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",216,"Pão de Milho (pacote)",2,30,5.8,2,Padaria
+3,16,216,5.8,17.40,16,"2025-03-21 11:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",216,"Pão de Milho (pacote)",2,30,5.8,2,Padaria
+1,56,1019,4.5,4.50,56,"2025-10-07 17:30:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",1019,"Purê de Batata Congelado (pacote)",10,55,4.5,10,Congelados
+2,56,114,15.9,31.80,56,"2025-10-07 17:30:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",114,"Fígado Bovino (kg)",1,15,15.9,1,Açougue
+1,96,812,9.1,9.10,96,"2025-04-23 20:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",812,"Amaciante de Roupas (2L)",8,80,9.1,8,Limpeza
+2,96,313,6.8,13.60,96,"2025-04-23 20:00:00",32,32,"Sílvia Lima Nunes",00112233447,"Avenida das Palmeiras, 6667","(28) 96543-2111",313,"Leite de Coco (vidro)",3,70,6.8,3,Laticínios
+1,24,205,6.8,6.80,24,"2025-04-30 15:45:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",205,"Torta de Maçã (fat)",2,20,6.8,2,Padaria
+3,24,906,3,9.00,24,"2025-04-30 15:45:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",906,"Escova de Dentes (un)",9,150,3,9,"Higiene Pessoal"
+1,24,717,65,65.00,24,"2025-04-30 15:45:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",717,"Conhaque (garrafa)",7,10,65,7,Bebidas
+2,24,815,8.2,16.40,24,"2025-04-30 15:45:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",815,"Lustra Móveis (frasco)",8,55,8.2,8,Limpeza
+3,24,901,10.5,31.50,24,"2025-04-30 15:45:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",901,"Shampoo (350ml)",9,95,10.5,9,"Higiene Pessoal"
+3,24,901,10.5,31.50,24,"2025-04-30 15:45:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",901,"Shampoo (350ml)",9,95,10.5,9,"Higiene Pessoal"
+1,24,216,5.8,5.80,24,"2025-04-30 15:45:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",216,"Pão de Milho (pacote)",2,30,5.8,2,Padaria
+3,24,416,11.5,34.50,24,"2025-04-30 15:45:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",416,"Queijo Gouda Fatiado (100g)",4,25,11.5,4,Frios
+1,64,602,7.2,7.20,64,"2025-11-16 21:00:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",602,"Feijão Carioca (1kg)",6,150,7.2,6,Mercearia
+3,64,702,3.5,10.50,64,"2025-11-16 21:00:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",702,"Cerveja Pilsen (lata)",7,300,3.5,7,Bebidas
+1,64,602,7.2,7.20,64,"2025-11-16 21:00:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",602,"Feijão Carioca (1kg)",6,150,7.2,6,Mercearia
+3,64,702,3.5,10.50,64,"2025-11-16 21:00:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",702,"Cerveja Pilsen (lata)",7,300,3.5,7,Bebidas
+1,104,217,8.5,8.50,104,"2025-06-02 21:00:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",217,"Mini Churros (pacote)",2,40,8.5,2,Padaria
+3,104,716,3.8,11.40,104,"2025-06-02 21:00:00",33,33,"Roberto Pereira Alves",66778899003,"Travessa da Serra, 6869","(54) 95432-1110",716,"Guaracamp (lata)",7,95,3.8,7,Bebidas
+1,32,406,3.5,3.50,32,"2025-06-09 18:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",406,"Mortadela Fatiada (100g)",4,70,3.5,4,Frios
+2,32,1006,18,36.00,32,"2025-06-09 18:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",1006,"Lasanha Congelada (un)",10,40,18,10,Congelados
+1,32,915,2.1,2.10,32,"2025-06-09 18:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",915,"Lenço de Papel (pacote)",9,100,2.1,9,"Higiene Pessoal"
+3,32,917,5.5,16.50,32,"2025-06-09 18:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",917,"Pasta de Dente Infantil (un)",9,75,5.5,9,"Higiene Pessoal"
+1,32,502,2.8,2.80,32,"2025-06-09 18:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",502,"Banana Prata (kg)",5,120,2.8,5,Hortifruti
+1,32,502,2.8,2.80,32,"2025-06-09 18:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",502,"Banana Prata (kg)",5,120,2.8,5,Hortifruti
+2,32,916,6.5,13.00,32,"2025-06-09 18:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",916,"Absorvente (pacote)",9,50,6.5,9,"Higiene Pessoal"
+1,32,417,7.2,7.20,32,"2025-06-09 18:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",417,"Azeitona Preta (pote)",4,30,7.2,4,Frios
+3,112,1018,8.9,26.70,112,"2025-07-12 08:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",1018,"Nhoque Congelado (pacote)",10,25,8.9,10,Congelados
+1,112,210,2.8,2.80,112,"2025-07-12 08:30:00",34,34,"Amanda Gomes Rodrigues",11223344552,"Rua do Vale, 7071","(78) 94321-1099",210,"Baguete (un)",2,65,2.8,2,Padaria
+1,8,603,5.5,5.50,8,"2025-02-09 20:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",603,"Óleo de Soja (900ml)",6,100,5.5,6,Mercearia
+2,8,802,3.2,6.40,8,"2025-02-09 20:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",802,"Água Sanitária (1L)",8,100,3.2,8,Limpeza
+3,8,903,1.8,5.40,8,"2025-02-09 20:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",903,"Sabonete em Barra (un)",9,200,1.8,9,"Higiene Pessoal"
+1,8,1012,14,14.00,8,"2025-02-09 20:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",1012,"Peixe Empanado Congelado (pacote)",10,50,14,10,Congelados
+3,8,917,5.5,16.50,8,"2025-02-09 20:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",917,"Pasta de Dente Infantil (un)",9,75,5.5,9,"Higiene Pessoal"
+3,8,401,6.99,20.97,8,"2025-02-09 20:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",401,"Presunto Fatiado (100g)",4,60,6.99,4,Frios
+3,8,401,6.99,20.97,8,"2025-02-09 20:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",401,"Presunto Fatiado (100g)",4,60,6.99,4,Frios
+2,8,1015,5.1,10.20,8,"2025-02-09 20:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",1015,"Espinafre Congelado (pacote)",10,75,5.1,10,Congelados
+3,8,1012,14,42.00,8,"2025-02-09 20:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",1012,"Peixe Empanado Congelado (pacote)",10,50,14,10,Congelados
+2,48,912,2.8,5.60,48,"2025-08-28 13:45:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",912,"Cotonete (caixa)",9,140,2.8,9,"Higiene Pessoal"
+1,48,314,3.5,3.50,48,"2025-08-28 13:45:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",314,"Iogurte Grego (un)",3,80,3.5,3,Laticínios
+1,88,910,7.2,7.20,88,"2025-03-14 19:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",910,"Sabonete Líquido (frasco)",9,90,7.2,9,"Higiene Pessoal"
+2,88,609,2.8,5.60,88,"2025-03-14 19:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",609,"Biscoito Água e Sal (pacote)",6,115,2.8,6,Mercearia
+1,129,715,85,85.00,129,"2025-10-06 15:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",715,"Whisky (garrafa)",7,15,85,7,Bebidas
+2,129,615,1.8,3.60,129,"2025-10-06 15:30:00",35,35,"Fábio Rocha Souza",77889900111,"Avenida Atlântica, 7273","(97) 93210-9878",615,"Fermento Biológico Seco (pacote)",6,120,1.8,6,Mercearia
+2,40,510,4.8,9.60,40,"2025-07-19 10:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",510,"Abacaxi (un)",5,60,4.8,5,Hortifruti
+1,40,711,15.5,15.50,40,"2025-07-19 10:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",711,"Cachaça (garrafa)",7,30,15.5,7,Bebidas
+1,40,117,19.5,19.50,40,"2025-07-19 10:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",117,"Linguiça Calabresa (kg)",1,58,19.5,1,Açougue
+1,40,715,85,85.00,40,"2025-07-19 10:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",715,"Whisky (garrafa)",7,15,85,7,Bebidas
+2,40,202,5.5,11.00,40,"2025-07-19 10:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",202,"Bolo de Chocolate (fat)",2,30,5.5,2,Padaria
+2,40,202,5.5,11.00,40,"2025-07-19 10:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",202,"Bolo de Chocolate (fat)",2,30,5.5,2,Padaria
+3,40,1017,4.1,12.30,40,"2025-07-19 10:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",1017,"Polenta Congelada (pacote)",10,60,4.1,10,Congelados
+2,40,416,11.5,23.00,40,"2025-07-19 10:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",416,"Queijo Gouda Fatiado (100g)",4,25,11.5,4,Frios
+1,120,913,12.5,12.50,120,"2025-08-21 09:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",913,"Hidratante Corporal (frasco)",9,65,12.5,9,"Higiene Pessoal"
+2,120,212,5.5,11.00,120,"2025-08-21 09:00:00",36,36,"Larissa Barbosa Lima",22334455660,"Rua da Lua, 7475","(23) 92109-8767",212,"Pão de Centeio (pacote)",2,40,5.5,2,Padaria
+3,17,306,32,96.00,17,"2025-03-26 16:45:00",37,37,"Tiago Ribeiro Castro",88990011229,"Travessa do Vento, 7677","(44) 91098-7656",306,"Queijo Coalho (kg)",3,30,32,3,Laticínios
+1,17,804,7.5,7.50,17,"2025-03-26 16:45:00",37,37,"Tiago Ribeiro Castro",88990011229,"Travessa do Vento, 7677","(44) 91098-7656",804,"Desinfetante (2L)",8,90,7.5,8,Limpeza
+2,17,814,4.9,9.80,17,"2025-03-26 16:45:00",37,37,"Tiago Ribeiro Castro",88990011229,"Travessa do Vento, 7677","(44) 91098-7656",814,"Água Sanitária Concentrada (1L)",8,70,4.9,8,Limpeza
+4,17,1013,4.7,18.80,17,"2025-03-26 16:45:00",37,37,"Tiago Ribeiro Castro",88990011229,"Travessa do Vento, 7677","(44) 91098-7656",1013,"Ervilha Congelada (pacote)",10,85,4.7,10,Congelados
+4,17,415,5.2,20.80,17,"2025-03-26 16:45:00",37,37,"Tiago Ribeiro Castro",88990011229,"Travessa do Vento, 7677","(44) 91098-7656",415,"Pasta de Queijo (pote)",4,20,5.2,4,Frios
+1,57,614,4.2,4.20,57,"2025-10-12 10:00:00",37,37,"Tiago Ribeiro Castro",88990011229,"Travessa do Vento, 7677","(44) 91098-7656",614,"Milho de Pipoca (500g)",6,90,4.2,6,Mercearia
+2,57,414,16.5,33.00,57,"2025-10-12 10:00:00",37,37,"Tiago Ribeiro Castro",88990011229,"Travessa do Vento, 7677","(44) 91098-7656",414,"Salsichão (kg)",4,50,16.5,4,Frios
+1,97,913,12.5,12.50,97,"2025-04-28 10:30:00",37,37,"Tiago Ribeiro Castro",88990011229,"Travessa do Vento, 7677","(44) 91098-7656",913,"Hidratante Corporal (frasco)",9,65,12.5,9,"Higiene Pessoal"
+2,97,613,3.9,7.80,97,"2025-04-28 10:30:00",37,37,"Tiago Ribeiro Castro",88990011229,"Travessa do Vento, 7677","(44) 91098-7656",613,"Farinha de Mandioca (500g)",6,65,3.9,6,Mercearia
+2,25,308,15,30.00,25,"2025-05-05 20:30:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",308,"Queijo Minas Frescal (un)",3,40,15,3,Laticínios
+1,25,606,12.5,12.50,25,"2025-05-05 20:30:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",606,"Café Torrado e Moído (500g)",6,120,12.5,6,Mercearia
+2,25,816,5.9,11.80,25,"2025-05-05 20:30:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",816,"Limpa Vidros (frasco)",8,60,5.9,8,Limpeza
+3,25,811,2,6.00,25,"2025-05-05 20:30:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",811,"Flanela (un)",8,105,2,8,Limpeza
+2,25,715,85,170.00,25,"2025-05-05 20:30:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",715,"Whisky (garrafa)",7,15,85,7,Bebidas
+1,25,414,16.5,16.50,25,"2025-05-05 20:30:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",414,"Salsichão (kg)",4,50,16.5,4,Frios
+1,65,202,5.5,5.50,65,"2025-11-21 13:45:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",202,"Bolo de Chocolate (fat)",2,30,5.5,2,Padaria
+2,65,902,11,22.00,65,"2025-11-21 13:45:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",902,"Condicionador (350ml)",9,85,11,9,"Higiene Pessoal"
+1,65,202,5.5,5.50,65,"2025-11-21 13:45:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",202,"Bolo de Chocolate (fat)",2,30,5.5,2,Padaria
+2,65,902,11,22.00,65,"2025-11-21 13:45:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",902,"Condicionador (350ml)",9,85,11,9,"Higiene Pessoal"
+1,105,617,5.1,5.10,105,"2025-06-07 11:30:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",617,"Leite de Soja (1L)",6,70,5.1,6,Mercearia
+2,105,116,21,42.00,105,"2025-06-07 11:30:00",38,38,"Natália Nunes Pereira",33445566778,"Avenida das Estrelas, 7879","(65) 90987-6545",116,"Rabada Bovina (kg)",1,12,21,1,Açougue
+3,33,206,7.2,21.60,33,"2025-06-14 11:00:00",39,39,"Vinícius Alves Gomes",99001122337,"Rua do Sol Poente, 8081","(84) 99876-5434",206,"Pão de Queijo (pacote)",2,60,7.2,2,Padaria
+1,33,908,2.5,2.50,33,"2025-06-14 11:00:00",39,39,"Vinícius Alves Gomes",99001122337,"Rua do Sol Poente, 8081","(84) 99876-5434",908,"Fio Dental (un)",9,130,2.5,9,"Higiene Pessoal"
+2,33,1018,8.9,17.80,33,"2025-06-14 11:00:00",39,39,"Vinícius Alves Gomes",99001122337,"Rua do Sol Poente, 8081","(84) 99876-5434",1018,"Nhoque Congelado (pacote)",10,25,8.9,10,Congelados
+1,33,713,35,35.00,33,"2025-06-14 11:00:00",39,39,"Vinícius Alves Gomes",99001122337,"Rua do Sol Poente, 8081","(84) 99876-5434",713,"Espumante (garrafa)",7,20,35,7,Bebidas
+3,33,917,5.5,16.50,33,"2025-06-14 11:00:00",39,39,"Vinícius Alves Gomes",99001122337,"Rua do Sol Poente, 8081","(84) 99876-5434",917,"Pasta de Dente Infantil (un)",9,75,5.5,9,"Higiene Pessoal"
+2,33,415,5.2,10.40,33,"2025-06-14 11:00:00",39,39,"Vinícius Alves Gomes",99001122337,"Rua do Sol Poente, 8081","(84) 99876-5434",415,"Pasta de Queijo (pote)",4,20,5.2,4,Frios
+4,113,910,7.2,28.80,113,"2025-07-17 14:00:00",39,39,"Vinícius Alves Gomes",99001122337,"Rua do Sol Poente, 8081","(84) 99876-5434",910,"Sabonete Líquido (frasco)",9,90,7.2,9,"Higiene Pessoal"
+1,113,317,16.8,16.80,113,"2025-07-17 14:00:00",39,39,"Vinícius Alves Gomes",99001122337,"Rua do Sol Poente, 8081","(84) 99876-5434",317,"Mussarela Ralada (pacote)",3,48,16.8,3,Laticínios
+1,9,503,3,3.00,9,"2025-02-14 12:15:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",503,"Alface Americana (un)",5,40,3,5,Hortifruti
+2,9,1002,8.9,17.80,9,"2025-02-14 12:15:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",1002,"Nuggets de Frango (300g)",10,110,8.9,10,Congelados
+2,9,812,9.1,18.20,9,"2025-02-14 12:15:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",812,"Amaciante de Roupas (2L)",8,80,9.1,8,Limpeza
+3,9,107,9.99,29.97,9,"2025-02-14 12:15:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",107,"Salsicha (kg)",1,70,9.99,1,Açougue
+2,9,1011,5.9,11.80,9,"2025-02-14 12:15:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",1011,"Mandioca Congelada (pacote)",10,70,5.9,10,Congelados
+4,9,415,5.2,20.80,9,"2025-02-14 12:15:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",415,"Pasta de Queijo (pote)",4,20,5.2,4,Frios
+1,49,713,35,35.00,49,"2025-09-02 18:30:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",713,"Espumante (garrafa)",7,20,35,7,Bebidas
+2,49,110,31.9,63.80,49,"2025-09-02 18:30:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",110,"Paleta Bovina (kg)",1,22,31.9,1,Açougue
+1,89,710,4.2,4.20,89,"2025-03-19 10:00:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",710,"Água Tônica (lata)",7,100,4.2,7,Bebidas
+2,89,407,6.5,13.00,89,"2025-03-19 10:00:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",407,"Azeitona Verde (pote)",4,35,6.5,4,Frios
+1,125,613,3.9,3.90,125,"2025-09-16 08:30:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",613,"Farinha de Mandioca (500g)",6,65,3.9,6,Mercearia
+2,125,112,25.5,51.00,125,"2025-09-16 08:30:00",40,40,"Carla Souza Rocha",44556677886,"Travessa do Riacho, 8283","(01) 98765-4322",112,"Músculo Bovino (kg)",1,30,25.5,1,Açougue
