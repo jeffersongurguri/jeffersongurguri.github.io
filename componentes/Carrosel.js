@@ -49,9 +49,9 @@ class Carrosel extends HTMLElement {
           object-fit: cover;
         }
       </style>
-      <div class="carousel-container">
-        <div class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
+      <div class="carousel-container rounded">
+        <div class="carousel slide rounded" data-ride="carousel" data-interval="3000">
+          <div class="carousel-inner rounded">
             <div class="carousel-item active">
               <slot name="ativo">
                 <img src="./public/arte-1.png" class="d-block" alt="Imagem 1">
