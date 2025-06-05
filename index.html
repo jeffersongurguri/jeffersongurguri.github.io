@@ -1,63 +1,196 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistemas Integrados de Gestão - Mercantil</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #007bff;
-        }
-        p {
-            line-height: 1.6;
-        }
-        .download-link {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #28a745;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-        .download-link:hover {
-            background-color: #1e7e34;
-        }
-    </style>
+    <title>Simpósio sobre Autismo - IFCE Baturité</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./componentes/Atividade.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Disciplina: Sistemas Integrados de Gestão</h1>
-        <p>Bem-vindo à página da disciplina de Sistemas Integrados de Gestão!</p>
+    
+    <section class="hero">
+        <div class="floating-elements">
+            <div class="floating-element">🧩</div>
+            <div class="floating-element">💙</div>
+            <div class="floating-element">🌟</div>
+            <div class="floating-element">🤝</div>
+            <div class="floating-element">🎓</div>
+            <div class="floating-element">💡</div>
+            <div class="floating-element">🌈</div>
+            <div class="floating-element">❤️</div>
+            <div class="floating-element">✨</div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Simpósio sobre Autismo</h1>
+                <p class="subtitle">Compreensão, Inclusão e Apoio</p>
+                <div class="date-location">
+                    📅 20 de Junho de 2025 | 📍 IFCE Campus Baturité
+                </div>
+                <a href="#inscricoes" class="cta-button">Inscreva-se Gratuitamente</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section about">
+        <div class="container">
+            <h2 class="section-title">Sobre o Evento</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>O Simpósio sobre Autismo do IFCE Baturité é um evento dedicado a promover o conhecimento, a conscientização e a inclusão das pessoas com Transtorno do Espectro Autista (TEA). Nosso objetivo é reunir profissionais, familiares, estudantes e toda a comunidade para compartilhar experiências, metodologias e estratégias que favoreçam o desenvolvimento e a inclusão social.</p>
+                    <br>
+                    <p>Durante um dia completo de atividades, teremos palestras especializadas, oficinas práticas, relatos de experiência e momentos de networking, proporcionando um espaço rico de aprendizado e troca de conhecimentos sobre o autismo.</p>
+                </div>
+                <div class="about-visual">
+                    🧩
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section program">
+        <div class="container">
+            <h2 class="section-title">Programação do Evento</h2>
+            <div class="program-grid">
+                <atividade-item 
+                    horario="08:00 - 08:30"
+                    titulo="Credenciamento e Recepção"
+                    descricao="Acolhimento dos participantes com café da manhã e entrega de materiais.">
+                </atividade-item>
 
-        <h2>Base de Dados do Mercantil</h2>
-        <p>Para auxiliar nos estudos e trabalhos práticos da disciplina, disponibilizamos uma base de dados simulada de um mercantil.</p>
-        <p>Esta base de dados contém informações relevantes para a compreensão e aplicação dos conceitos de sistemas integrados de gestão em um contexto de varejo.</p>
+                <atividade-item 
+                    horario="08:30 - 09:00"
+                    titulo="Cerimônia de Abertura"
+                    palestrante="Mesa de Autoridades"
+                    descricao="Apresentação oficial do evento com as boas-vindas da direção do IFCE e autoridades locais.">
+                </atividade-item>
 
-        <p>Clique no link abaixo para baixar a base de dados:</p>
-        <a href="mercantil.csv" class="download-link" download>Baixar Base de Dados (ZIP)</a>
+                <atividade-item 
+                    horario="09:00 - 10:00"
+                    titulo='Palestra Magna: "Compreendendo o Espectro Autista"'
+                    palestrante="Dra. Maria Fernanda Silva - Neuropediatra"
+                    descricao="Uma visão abrangente sobre o Transtorno do Espectro Autista, suas características, diagnóstico e intervenções baseadas em evidências científicas.">
+                </atividade-item>
 
-        <p><strong>Observações:</strong></p>
-        <ul>
-            <li>A base de dados está compactada em formato CSV para facilitar o download.</li>
-            <li>Utilize esta base de dados para realizar análises, consultas e simulações relacionadas aos tópicos da disciplina.</li>
-        </ul>
+                <atividade-item 
+                    horario="10:00 - 10:30"
+                    titulo="Coffee Break"
+                    descricao="Momento de networking e confraternização entre os participantes.">
+                </atividade-item>
 
-        <h2>Outros Recursos</h2>
-        <p>Em breve, outros materiais e recursos serão disponibilizados nesta página.</p>
-    </div>
+                <atividade-item 
+                    horario="10:30 - 11:30"
+                    titulo='Mesa Redonda: "Inclusão Escolar e Estratégias Pedagógicas"'
+                    palestrante="Prof. João Santos (Pedagogo) | Psic. Ana Costa | Prof. Carlos Lima (Educação Especial)"
+                    descricao="Discussão sobre metodologias inclusivas, adaptações curriculares e estratégias para o sucesso escolar de estudantes com TEA.">
+                </atividade-item>
+
+                <atividade-item 
+                    horario="11:30 - 12:30"
+                    titulo='Oficina Prática: "Comunicação Alternativa e Tecnologias Assistivas"'
+                    palestrante="Terapeuta Ocupacional Lívia Rodrigues"
+                    descricao="Demonstração prática de ferramentas e técnicas de comunicação alternativa, incluindo uso de aplicativos e recursos tecnológicos.">
+                </atividade-item>
+
+                <atividade-item 
+                    horario="12:30 - 14:00"
+                    titulo="Intervalo para Almoço"
+                    descricao="Almoço livre (opções no campus e proximidades).">
+                </atividade-item>
+
+                <atividade-item 
+                    horario="14:00 - 15:00"
+                    titulo='Palestra: "O Papel da Família no Desenvolvimento da Pessoa com TEA"'
+                    palestrante="Psicóloga Dra. Beatriz Oliveira"
+                    descricao="Orientações para famílias sobre como apoiar o desenvolvimento, lidar com desafios e promover a autonomia da pessoa com autismo.">
+                </atividade-item>
+
+                <atividade-item 
+                    horario="15:00 - 16:00"
+                    titulo='Relatos de Experiência: "Vozes do Espectro"'
+                    palestrante="Pessoas com TEA e Familiares"
+                    descricao="Testemunhos inspiradores de pessoas com autismo e suas famílias, compartilhando conquistas, desafios e aprendizados.">
+                </atividade-item>
+
+                <atividade-item 
+                    horario="16:00 - 16:30"
+                    titulo="Coffee Break"
+                    descricao="Segundo momento de confraternização e networking.">
+                </atividade-item>
+
+                <atividade-item 
+                    horario="16:30 - 17:30"
+                    titulo='Oficina: "Atividades Sensoriais e Regulação Emocional"'
+                    palestrante="Terapeuta Ocupacional Ricardo Mendes"
+                    descricao="Técnicas práticas para trabalhar questões sensoriais e promover a autorregulação emocional em pessoas com TEA.">
+                </atividade-item>
+
+                <atividade-item 
+                    horario="17:30 - 18:00"
+                    titulo="Encerramento e Avaliação"
+                    descricao="Síntese dos aprendizados, entrega de certificados e avaliação do evento pelos participantes.">
+                </atividade-item>
+            </div>
+        </div>
+    </section>
+
+    <section class="section location">
+        <div class="container">
+            <h2 class="section-title">Local do Evento</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>IFCE Campus Baturité</h3>
+                    <p>O evento será realizado no auditório principal do Instituto Federal de Educação, Ciência e Tecnologia do Ceará, Campus Baturité, uma instituição reconhecida pela excelência em educação e compromisso com a inclusão social.</p>
+                    <div class="location-address">
+                        <strong>Endereço:</strong><br>
+                        Av. Ouvidor Vitóriano Soares Barbosa, 160<br>
+                        Sanharão - Baturité/CE<br>
+                        CEP: 62760-000
+                    </div>
+                </div>
+                <div style="text-align: center; font-size: 8rem; opacity: 0.8;">
+                    <img src="./public/campus.jpg" alt="IFCE Campus Baturité" style="max-width: 90%; height: auto; border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section contact" id="inscricoes">
+        <div class="container">
+            <h2 class="section-title">Inscrições e Contato</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #555;">
+                As inscrições são gratuitas e limitadas. Garante já sua vaga!
+            </p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <h3>E-mail</h3>
+                    <p>eventos.baturite@ifce.edu.br</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
+                    <h3>WhatsApp</h3>
+                    <p>(85) 9 9999-9999</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🌐</div>
+                    <h3>Site do IFCE</h3>
+                    <p>www.ifce.edu.br/baturite</p>
+                </div>
+            </div>
+            <div style="margin-top: 3rem;">
+                <a href="mailto:eventos.baturite@ifce.edu.br" class="cta-button">Inscrever-se Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 IFCE Campus Baturité - Simpósio sobre Autismo. Todos os direitos reservados.</p>
+            <p style="margin-top: 0.5rem; opacity: 0.8;">Juntos pela inclusão e compreensão do espectro autista</p>
+        </div>
+    </footer>
+    <script src="main.js" type="module"></script>
 </body>
 </html>

@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.hero {
+    /* Fundo inspirado no autismo: azul, amarelo, vermelho e verde (cores do símbolo do autismo) */
+    background: linear-gradient(120deg, #3a8dde 0%, #f9d923 40%, #f3722c 70%, #43aa8b 100%);
+    color: rgb(0, 54, 0);
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="puzzle" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M10,0 Q15,0 15,5 Q15,10 10,10 Q5,10 5,5 Q5,0 10,0 M10,10 Q15,10 15,15 Q15,20 10,20 Q5,20 5,15 Q5,10 10,10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23puzzle)"/></svg>') repeat;
+    opacity: 0.3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content {
+    text-align: center;
+    animation: fadeInUp 1s ease-out;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero .subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.hero .date-location {
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    display: inline-block;
+}
+
+.cta-button {
+    background: linear-gradient(45deg, #ff6b6b, #ffa726);
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(45deg, #0b3501, #23d30c, #0b3501);
+    border-radius: 2px;
+}
+
+.about {
+    background: #f8f9fa;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify;
+}
+
+.about-visual {
+    text-align: center;
+    font-size: 8rem;
+    color: #667eea;
+    opacity: 0.8;
+}
+
+.program {
+    background: white;
+}
+
+.program-grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.program-item {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #667eea;
+    transition: all 0.3s ease;
+}
+
+.program-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.program-time {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+}
+
+.program-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.program-speaker {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.program-description {
+    color: #555;
+    line-height: 1.6;
+}
+
+.location {
+    background: linear-gradient(135deg, #43aa8b 0%, #b7efc5 100%);
+    color: rgb(0, 0, 0);
+}
+
+.location-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.location-info {
+    font-size: 1.1rem;
+}
+
+.location-address {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    backdrop-filter: blur(10px);
+}
+
+.contact {
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+    font-size: 3rem;
+    color: #667eea;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-content,
+    .location-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-visual {
+        font-size: 4rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}
+
+.floating-elements {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.floating-element {
+    position: absolute;
+    opacity: 0.1;
+    animation: float 20s infinite linear;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(100vh) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(-100px) rotate(360deg);
+    }
+}
+
+.floating-element:nth-child(1) {
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.floating-element:nth-child(2) {
+    left: 20%;
+    animation-delay: 2s;
+}
+
+.floating-element:nth-child(3) {
+    left: 30%;
+    animation-delay: 4s;
+}
+
+.floating-element:nth-child(4) {
+    left: 40%;
+    animation-delay: 6s;
+}
+
+.floating-element:nth-child(5) {
+    left: 50%;
+    animation-delay: 8s;
+}
+
+.floating-element:nth-child(6) {
+    left: 60%;
+    animation-delay: 10s;
+}
+
+.floating-element:nth-child(7) {
+    left: 70%;
+    animation-delay: 12s;
+}
+
+.floating-element:nth-child(8) {
+    left: 80%;
+    animation-delay: 14s;
+}
+
+.floating-element:nth-child(9) {
+    left: 90%;
+    animation-delay: 16s;
+}
