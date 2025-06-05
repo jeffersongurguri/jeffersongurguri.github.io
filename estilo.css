@@ -122,6 +122,23 @@ body {
     gap: 3rem;
     align-items: center;
 }
+.about-text {
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .about-text {
+        font-size: 1rem;
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-text {
+        font-size: 0.95rem;
+        padding: 0 2px;
+    }
+}
 
 .about-text {
     font-size: 1.1rem;
@@ -342,10 +359,10 @@ body {
 }
 
 .dynapuff {
-  font-family: "DynaPuff", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
