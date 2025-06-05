@@ -37,8 +37,6 @@ class Carrosel extends HTMLElement {
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
       <style>
         .carousel-container {
-          width: ${width};
-          height: ${height};
           margin: auto;
         }
         .carousel-inner, .carousel-item, .carousel-item img {

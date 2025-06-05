@@ -442,3 +442,25 @@ body {
     font-variation-settings:
         "wdth" 100;
 }
+
+.carousel-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+@media (max-width: 900px) {
+    .carousel-container {
+        max-width: 100%;
+        padding: 1.5rem 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-container {
+        padding: 1rem 0;
+    }
+}
