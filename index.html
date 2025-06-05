@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encontro sobre Autismo - IFCE Baturité</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./componentes/Atividade.js"></script>
     <script src="./componentes/Carrosel.js"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+
     <section class="hero">
         <div class="floating-elements">
             <div class="floating-element">🧩</div>
@@ -26,7 +32,7 @@
         </div>
         <div class="container">
             <div class="hero-content">
-                <h1>Simpósio sobre Autismo</h1>
+                <h1 class="dynapuff">Simpósio sobre Autismo</h1>
                 <p class="subtitle">Compreensão, Inclusão e Apoio</p>
                 <div class="date-location">
                     📅 20 de Junho de 2025 | 📍 IFCE Campus Baturité
@@ -35,15 +41,21 @@
             </div>
         </div>
     </section>
-    
+
     <section class="section about">
         <div class="container">
             <h2 class="section-title">Sobre o Evento</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>O Simpósio sobre Autismo do IFCE Baturité é um evento dedicado a promover o conhecimento, a conscientização e a inclusão das pessoas com Transtorno do Espectro Autista (TEA). Nosso objetivo é reunir profissionais, familiares, estudantes e toda a comunidade para compartilhar experiências, metodologias e estratégias que favoreçam o desenvolvimento e a inclusão social.</p>
+                    <p>O Simpósio sobre Autismo do IFCE Baturité é um evento dedicado a promover o conhecimento, a
+                        conscientização e a inclusão das pessoas com Transtorno do Espectro Autista (TEA). Nosso
+                        objetivo é reunir profissionais, familiares, estudantes e toda a comunidade para compartilhar
+                        experiências, metodologias e estratégias que favoreçam o desenvolvimento e a inclusão social.
+                    </p>
                     <br>
-                    <p>Durante um dia completo de atividades, teremos palestras especializadas, oficinas práticas, relatos de experiência e momentos de networking, proporcionando um espaço rico de aprendizado e troca de conhecimentos sobre o autismo.</p>
+                    <p>Durante um dia completo de atividades, teremos palestras especializadas, oficinas práticas,
+                        relatos de experiência e momentos de networking, proporcionando um espaço rico de aprendizado e
+                        troca de conhecimentos sobre o autismo.</p>
                 </div>
                 <div class="about-visual">
                     <carrosel-component></carrosel-component>>
@@ -51,87 +63,65 @@
             </div>
         </div>
     </section>
-    
+
     <section class="section program">
         <div class="container">
             <h2 class="section-title">Programação do Evento</h2>
             <div class="program-grid">
-                <atividade-item 
-                    horario="08:00 - 08:30"
-                    titulo="Credenciamento e Recepção"
+                <atividade-item horario="08:00 - 08:30" titulo="Credenciamento e Recepção"
                     descricao="Acolhimento dos participantes com café da manhã e entrega de materiais.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="08:30 - 09:00"
-                    titulo="Cerimônia de Abertura"
-                    palestrante="Mesa de Autoridades"
+                <atividade-item horario="08:30 - 09:00" titulo="Cerimônia de Abertura" palestrante="Mesa de Autoridades"
                     descricao="Apresentação oficial do evento com as boas-vindas da direção do IFCE e autoridades locais.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="09:00 - 10:00"
-                    titulo='Palestra Magna: "Compreendendo o Espectro Autista"'
+                <atividade-item horario="09:00 - 10:00" titulo='Palestra Magna: "Compreendendo o Espectro Autista"'
                     palestrante="Dra. Maria Fernanda Silva - Neuropediatra"
                     descricao="Uma visão abrangente sobre o Transtorno do Espectro Autista, suas características, diagnóstico e intervenções baseadas em evidências científicas.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="10:00 - 10:30"
-                    titulo="Coffee Break"
+                <atividade-item horario="10:00 - 10:30" titulo="Coffee Break"
                     descricao="Momento de networking e confraternização entre os participantes.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="10:30 - 11:30"
+                <atividade-item horario="10:30 - 11:30"
                     titulo='Mesa Redonda: "Inclusão Escolar e Estratégias Pedagógicas"'
                     palestrante="Prof. João Santos (Pedagogo) | Psic. Ana Costa | Prof. Carlos Lima (Educação Especial)"
                     descricao="Discussão sobre metodologias inclusivas, adaptações curriculares e estratégias para o sucesso escolar de estudantes com TEA.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="11:30 - 12:30"
+                <atividade-item horario="11:30 - 12:30"
                     titulo='Oficina Prática: "Comunicação Alternativa e Tecnologias Assistivas"'
                     palestrante="Terapeuta Ocupacional Lívia Rodrigues"
                     descricao="Demonstração prática de ferramentas e técnicas de comunicação alternativa, incluindo uso de aplicativos e recursos tecnológicos.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="12:30 - 14:00"
-                    titulo="Intervalo para Almoço"
+                <atividade-item horario="12:30 - 14:00" titulo="Intervalo para Almoço"
                     descricao="Almoço livre (opções no campus e proximidades).">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="14:00 - 15:00"
+                <atividade-item horario="14:00 - 15:00"
                     titulo='Palestra: "O Papel da Família no Desenvolvimento da Pessoa com TEA"'
                     palestrante="Psicóloga Dra. Beatriz Oliveira"
                     descricao="Orientações para famílias sobre como apoiar o desenvolvimento, lidar com desafios e promover a autonomia da pessoa com autismo.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="15:00 - 16:00"
-                    titulo='Relatos de Experiência: "Vozes do Espectro"'
+                <atividade-item horario="15:00 - 16:00" titulo='Relatos de Experiência: "Vozes do Espectro"'
                     palestrante="Pessoas com TEA e Familiares"
                     descricao="Testemunhos inspiradores de pessoas com autismo e suas famílias, compartilhando conquistas, desafios e aprendizados.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="16:00 - 16:30"
-                    titulo="Coffee Break"
+                <atividade-item horario="16:00 - 16:30" titulo="Coffee Break"
                     descricao="Segundo momento de confraternização e networking.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="16:30 - 17:30"
-                    titulo='Oficina: "Atividades Sensoriais e Regulação Emocional"'
+                <atividade-item horario="16:30 - 17:30" titulo='Oficina: "Atividades Sensoriais e Regulação Emocional"'
                     palestrante="Terapeuta Ocupacional Ricardo Mendes"
                     descricao="Técnicas práticas para trabalhar questões sensoriais e promover a autorregulação emocional em pessoas com TEA.">
                 </atividade-item>
 
-                <atividade-item 
-                    horario="17:30 - 18:00"
-                    titulo="Encerramento e Avaliação"
+                <atividade-item horario="17:30 - 18:00" titulo="Encerramento e Avaliação"
                     descricao="Síntese dos aprendizados, entrega de certificados e avaliação do evento pelos participantes.">
                 </atividade-item>
             </div>
@@ -144,7 +134,9 @@
             <div class="location-content">
                 <div class="location-info">
                     <h3>IFCE Campus Baturité</h3>
-                    <p>O evento será realizado no auditório principal do Instituto Federal de Educação, Ciência e Tecnologia do Ceará, Campus Baturité, uma instituição reconhecida pela excelência em educação e compromisso com a inclusão social.</p>
+                    <p>O evento será realizado no auditório principal do Instituto Federal de Educação, Ciência e
+                        Tecnologia do Ceará, Campus Baturité, uma instituição reconhecida pela excelência em educação e
+                        compromisso com a inclusão social.</p>
                     <div class="location-address">
                         <strong>Endereço:</strong><br>
                         Av. Ouvidor Vitóriano Soares Barbosa, 160<br>
@@ -153,7 +145,8 @@
                     </div>
                 </div>
                 <div style="text-align: center; font-size: 8rem; opacity: 0.8;">
-                    <img src="./public/campus.jpg" alt="IFCE Campus Baturité" style="max-width: 90%; height: auto; border-radius: 10px;">
+                    <img src="./public/campus.jpg" alt="IFCE Campus Baturité"
+                        style="max-width: 90%; height: auto; border-radius: 10px;">
                 </div>
             </div>
         </div>
@@ -195,4 +188,5 @@
     </footer>
     <script src="main.js" type="module"></script>
 </body>
+
 </html>

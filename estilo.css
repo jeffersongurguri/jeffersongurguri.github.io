@@ -340,3 +340,12 @@ body {
     left: 90%;
     animation-delay: 16s;
 }
+
+.dynapuff {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
