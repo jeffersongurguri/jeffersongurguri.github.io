@@ -37,7 +37,7 @@ class Atividade extends HTMLElement {
     render() {
         const horario = this.getAttribute('horario') || '00:00 - 00:00';
         const titulo = this.getAttribute('titulo') || 'Título da Atividade';
-        const descricao = this.getAttribute('descricao') || 'Descrição da atividade.';
+        const descricao = this.getAttribute('descricao') || '';
         const tipo = this.getAttribute('tipo') || 'normal';
 
         this.shadowRoot.innerHTML = `
