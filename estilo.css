@@ -12,7 +12,8 @@ body {
 
 .hero {
     /* Fundo inspirado no autismo: azul, amarelo, vermelho e verde (cores do símbolo do autismo) */
-    background: linear-gradient(120deg, #3a8dde 0%, #f9d923 40%, #f3722c 70%, #43aa8b 100%);
+    /* background: linear-gradient(120deg, #3a8dde 0%, #f9d923 40%, #f3722c 70%, #43aa8b 100%); */
+    background-image: url('public/fundo-1.png');
     color: rgb(0, 54, 0);
     min-height: 50vh;
     display: flex;
@@ -50,6 +51,9 @@ body {
     margin-bottom: 1rem;
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 .hero .subtitle {
@@ -57,6 +61,12 @@ body {
     font-weight: 600;
     margin-bottom: 2rem;
     opacity: 0.9;
+    margin: auto;
+    padding: 0.5rem 1.5rem;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
 }
 
 .hero .date-location {
@@ -65,6 +75,7 @@ body {
     background: rgba(255, 255, 255, 0.2);
     padding: 1rem 2rem;
     border-radius: 50px;
+    font-weight: bolder;;
     backdrop-filter: blur(10px);
     display: inline-block;
 }
