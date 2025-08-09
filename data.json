@@ -195,7 +195,7 @@
       {
         "name": "ENG. DE SW I",
         "workload_ch": 40,
-        "url": "/disciplinas/bat-ead.html#eng-de-sw-i",
+        "url": "/disciplinas/bat-ead.html#engenharia-de-software-i",
         "semestre": 2
       },
       {
@@ -243,8 +243,8 @@
       {
         "name": "ENG. DE SW II",
         "workload_ch": 40,
-        "url": "/disciplinas/bat-ead.html#eng-de-sw-ii",
-        "semestre": 1
+        "url": "/disciplinas/bat-ead.html#engenharia-de-software-ii",
+        "semestre": 3
       }
     ]
   }
