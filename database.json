@@ -1,0 +1,212 @@
+[
+  {
+    "track": "CRATO",
+    "disciplines": [
+      {
+        "name": "INTRODUÇÃO A INFORMÁTICA",
+        "workload_ch": 160,
+        "url": "/crato/introducao-a-informatica"
+      },
+      {
+        "name": "LINGUAGEM DE PROGRAMAÇÃO I",
+        "workload_ch": 80,
+        "url": "/crato/linguagem-de-programacao-i"
+      },
+      {
+        "name": "REDES DE COMPUTADORES",
+        "workload_ch": 80,
+        "url": "/crato/redes-de-computadores"
+      },
+      {
+        "name": "PROGRAMAÇÃO MOBILE",
+        "workload_ch": 80,
+        "url": "/crato/programacao-mobile"
+      },
+      {
+        "name": "IHC COM DESENVOLVIMENTO DE SOFTWARE",
+        "workload_ch": 40,
+        "url": "/crato/ihc-com-desenvolvimento-de-software"
+      },
+      {
+        "name": "LINGUAGEM DE PROGRAMAÇÃO WEB",
+        "workload_ch": 80,
+        "url": "/crato/linguagem-de-programacao-web"
+      },
+      {
+        "name": "BANCO DE DADOS",
+        "workload_ch": 80,
+        "url": "/crato/banco-de-dados"
+      },
+      {
+        "name": "LINGUAGEM DE PROGRAMAÇÃO II",
+        "workload_ch": 120,
+        "url": "/crato/linguagem-de-programacao-ii"
+      },
+      {
+        "name": "ENGENHARIA DE SOFTWARE",
+        "workload_ch": 80,
+        "url": "/crato/engenharia-de-software"
+      },
+      {
+        "name": "LINGUAGEM DE PROGRAMAÇÃO WEB",
+        "workload_ch": 120,
+        "url": "/crato/linguagem-de-programacao-web-2"
+      },
+      {
+        "name": "LINGUAGEM DE PROGRAMAÇÃO WEB III",
+        "workload_ch": 80,
+        "url": "/crato/linguagem-de-programacao-web-iii"
+      }
+    ]
+  },
+  {
+    "track": "JAGUA",
+    "disciplines": [
+      {
+        "name": "BASES DE COMPUTAÇÃO",
+        "workload_ch": 80,
+        "url": "/jagua/bases-de-computacao"
+      },
+      {
+        "name": "BANCO DE DADOS",
+        "workload_ch": 80,
+        "url": "/jagua/banco-de-dados-2"
+      },
+      {
+        "name": "PRODUÇÃO DE CONTEÚDO TÉCNICO",
+        "workload_ch": 40,
+        "url": "/jagua/producao-de-conteudo-tecnico"
+      },
+      {
+        "name": "PRÁTICA PROFISSIONAL",
+        "workload_ch": 40,
+        "url": "/jagua/pratica-profissional"
+      },
+      {
+        "name": "FUNDAMENTOS DE WEB",
+        "workload_ch": 80,
+        "url": "/jagua/fundamentos-de-web"
+      },
+      {
+        "name": "DESENVOLVIMENTO WEB I",
+        "workload_ch": 80,
+        "url": "/jagua/desenvolvimento-web-i"
+      },
+      {
+        "name": "POO E APSOO",
+        "workload_ch": 120,
+        "url": "/jagua/poo-e-apsoo"
+      },
+      {
+        "name": "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS",
+        "workload_ch": 120,
+        "url": "/jagua/programacao-para-dispositivos-moveis"
+      },
+      {
+        "name": "INTRODUÇÃO A LÓGICA DE PROGRAMAÇÃO",
+        "workload_ch": 120,
+        "url": "/jagua/introducao-a-logica-de-programacao"
+      },
+      {
+        "name": "INTRO A ARQUITETURA DE REDES E SERVIDORES WEB",
+        "workload_ch": 80,
+        "url": "/jagua/intro-a-arquitetura-de-redes-e-servidores-web"
+      },
+      {
+        "name": "ENG. DE SW E GESTÃO DE PROJETOS",
+        "workload_ch": 80,
+        "url": "/jagua/eng-de-sw-e-gestao-de-projetos"
+      },
+      {
+        "name": "DESENVOLVIMENTO WEB II",
+        "workload_ch": 80,
+        "url": "/jagua/desenvolvimento-web-ii"
+      }
+    ]
+  },
+  {
+    "track": "BAT-EAD",
+    "disciplines": [
+      {
+        "name": "INFORMÁTICA BÁSICA",
+        "workload_ch": 40,
+        "url": "/bat-ead/informatica-basica"
+      },
+      {
+        "name": "BANCO DE DADOS I",
+        "workload_ch": 40,
+        "url": "/bat-ead/banco-de-dados-i"
+      },
+      {
+        "name": "BANCO DE DADOS II",
+        "workload_ch": 40,
+        "url": "/bat-ead/banco-de-dados-ii"
+      },
+      {
+        "name": "DESENVOLVIMENTO WEB I",
+        "workload_ch": 80,
+        "url": "/bat-ead/desenvolvimento-web-i-2"
+      },
+      {
+        "name": "REDES DE COMPUTADORES",
+        "workload_ch": 40,
+        "url": "/bat-ead/redes-de-computadores-2"
+      },
+      {
+        "name": "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS",
+        "workload_ch": 40,
+        "url": "/bat-ead/programacao-para-dispositivos-moveis-2"
+      },
+      {
+        "name": "LÓGICA MATEMÁTICA",
+        "workload_ch": 40,
+        "url": "/bat-ead/logica-matematica"
+      },
+      {
+        "name": "ENG. DE SW I",
+        "workload_ch": 40,
+        "url": "/bat-ead/eng-de-sw-i"
+      },
+      {
+        "name": "DESENVOLVIMENTO WEB III",
+        "workload_ch": 80,
+        "url": "/bat-ead/desenvolvimento-web-iii"
+      },
+      {
+        "name": "SISTEMAS OPERACIONAIS",
+        "workload_ch": 40,
+        "url": "/bat-ead/sistemas-operacionais"
+      },
+      {
+        "name": "PROJETO INTEGRADOR I",
+        "workload_ch": 40,
+        "url": "/bat-ead/projeto-integrador-i"
+      },
+      {
+        "name": "SEGURANÇA DA INFORMAÇÃO",
+        "workload_ch": 40,
+        "url": "/bat-ead/seguranca-da-informacao"
+      },
+      {
+        "name": "LÓGICA DE PROGRAMAÇÃO",
+        "workload_ch": 80,
+        "url": "/bat-ead/logica-de-programacao"
+      },
+      {
+        "name": "DESENVOLVIMENTO WEB II",
+        "workload_ch": 80,
+        "url": "/bat-ead/desenvolvimento-web-ii-2"
+      },
+      {
+        "name": "PROJETO INTEGRADOR II",
+        "workload_ch": 80,
+        "url": "/bat-ead/projeto-integrador-ii"
+      },
+      {
+        "name": "ENG. DE SW II",
+        "workload_ch": 40,
+        "url": "/bat-ead/eng-de-sw-ii"
+      }
+    ]
+  }
+]
