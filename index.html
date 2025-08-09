@@ -1,188 +1,216 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encontro sobre Autismo - IFCE Baturité</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="./componentes/Atividade.js"></script>
-    <script src="./componentes/Carrosel.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSS1Q8969K"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+    <title>Disciplinas Técnicas</title>
+    <!-- Inclui o CDN do Tailwind CSS para estilização rápida e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Define a fonte Inter para toda a página */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Cor de fundo suave */
+            line-height: 1.5; /* Altura da linha padrão para melhor leitura */
+        }
+        /* Estilos para centralizar o conteúdo e adicionar sombreamento */
+        .container-main {
+            max-width: 95%; /* Largura máxima do contêiner */
+            margin: 2rem auto; /* Centraliza horizontalmente e adiciona margem superior/inferior */
+            padding: 1.5rem;
+            background-color: #ffffff; /* Fundo branco para o contêiner */
+            border-radius: 1rem; /* Cantos arredondados */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            overflow-x: auto; /* Adiciona scroll horizontal se o conteúdo for muito largo */
+        }
+        /* Estilo base para os botões de disciplina */
+        .discipline-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem; /* Cantos arredondados */
+            font-weight: 600; /* Texto semi-negrito */
+            color: white; /* Cor do texto branca */
+            transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transição suave para hover */
+            cursor: pointer; /* Indica que é clicável */
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Sombra para profundidade */
+            min-height: 60px; /* Altura mínima para os botões */
+        }
+        .discipline-button:hover {
+            transform: translateY(-2px); /* Efeito de elevação no hover */
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada no hover */
+        }
+        /* Cores específicas para as faixas de curso */
+        .track-crato {
+            background-color: #fb923c; /* orange-400 */
+        }
+        .track-jagua {
+            background-color: #60a5fa; /* blue-400 */
+        }
+        .track-bat-ead {
+            background-color: #4ade80; /* green-400 */
+        }
 
-        gtag('config', 'G-PSS1Q8969K');
-    </script>
+        /* Estilos para o layout da grade que agora define as colunas principais */
+        .track-grid {
+            display: grid;
+            gap: 1.5rem; /* Espaçamento entre as colunas lógicas */
+            /* As colunas serão definidas dinamicamente pelo JS */
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: #f8fafc; /* Cor de fundo para cada seção de faixa */
+            border-radius: 0.75rem;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05); /* Sombra interna leve */
+        }
+
+        /* Estilo para as colunas individuais dentro da grade */
+        .grid-column {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem; /* Espaçamento entre os botões dentro de uma coluna */
+        }
+
+        /* Títulos das faixas */
+        .track-title {
+            font-size: 1.75rem; /* text-2xl */
+            font-weight: 700; /* font-bold */
+            color: #334155; /* slate-700 */
+            margin-bottom: 1.5rem;
+            text-align: center;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #cbd5e1; /* slate-300 */
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 768px) {
+            .container-main {
+                margin: 1rem auto;
+                padding: 1rem;
+            }
+            .track-title {
+                font-size: 1.5rem;
+            }
+            .discipline-button {
+                padding: 0.5rem 0.75rem;
+                font-size: 0.9rem;
+                min-height: 50px;
+            }
+            /* Em telas menores, as colunas podem empilhar para melhor leitura */
+            .track-grid {
+                grid-template-columns: 1fr !important; /* Força uma única coluna */
+            }
+        }
+    </style>
 </head>
-
 <body>
+    <div class="container-main">
+        <h1 class="text-4xl font-extrabold text-center text-gray-900 mb-8">
+            Quadro de Disciplinas Técnicas
+        </h1>
+        <p class="text-center text-gray-700 mb-10 text-lg">
+            Explore as disciplinas de cada modalidade abaixo. Clique em qualquer disciplina para ver mais detalhes.
+        </p>
 
-    <section class="hero">
-        <div class="floating-elements">
-            <div class="floating-element">🧩</div>
-            <div class="floating-element">💙</div>
-            <div class="floating-element">🌟</div>
-            <div class="floating-element">🤝</div>
-            <div class="floating-element">🎓</div>
-            <div class="floating-element">💡</div>
-            <div class="floating-element">🌈</div>
-            <div class="floating-element">❤️</div>
-            <div class="floating-element">✨</div>
-        </div>
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="dynapuff">O orgulho não é só autista, é nosso!</h1>
-                <p class="subtitle">Realização: NAPNE - IFCE Campus Baturité</p>
-                <div class="date-location">
-                    📅 26 de Junho de 2025 | 📍 IFCE Campus Baturité
-                </div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0rgOhj5YGGv3aruI7FzMma0ANTMHeW4K-Gr5IyTC2y_KO2w/viewform?usp=dialog" class="cta-button">Inscreva-se Gratuitamente</a>
-            </div>
-        </div>
-    </section>
+        <!-- Script JavaScript para gerar o conteúdo dinamicamente -->
+        <script>
+            // Dados das disciplinas organizados em COLUNAS para cada faixa
+            const disciplinesData = [
+                {
+                    track: "CRATO",
+                    colorClass: "track-crato",
+                    columns: [
+                        ["INTRODUÇÃO A INFORMÁTICA (160H)", "LINGUAGEM DE PROGRAMAÇÃO I (80H)", "REDES DE COMPUTADORES (80H)", "PROGRAMAÇÃO MOBILE (80H)", "IHC COM DESENVOLVIMENTO DE SOFTWARE (40H)"],
+                        ["LINGUAGEM DE PROGRAMAÇÃO WEB (80H)", "BANCO DE DADOS (80H)", "LINGUAGEM DE PROGRAMAÇÃO II (120H)", "ENGENHARIA DE SOFTWARE (80H)"],
+                        ["LINGUAGEM DE PROGRAMAÇÃO WEB (120H)", "LINGUAGEM DE PROGRAMAÇÃO WEB III (80H)"]
+                    ]
+                },
+                {
+                    track: "JAGUA",
+                    colorClass: "track-jagua",
+                    columns: [
+                        ["BASES DE COMPUTAÇÃO (80H)", "BANCO DE DADOS (80H)", "PRODUÇÃO DE CONTEÚDO TÉCNICO (40H)", "PRÁTICA PROFISSIONAL (40H)"],
+                        ["FUNDAMENTOS DE WEB (80H)", "DESENVOLVIMENTO WEB I (80H)", "POO E APSOO (120H)", "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS (120H)"],
+                        ["INTRODUÇÃO A LÓGICA DE PROGRAMAÇÃO (120H)", "INTRO A ARQUITETURA DE REDES E SERVIDORES WEB (80H)", "ENG. DE SW E GESTÃO DE PROJETOS (80H)", "DESENVOLVIMENTO WEB II (80H)"]
+                    ]
+                },
+                {
+                    track: "BAT-EAD", // Representa visualmente tanto BAT-EAD quanto BAT-INTEGRADO como uma única seção verde
+                    colorClass: "track-bat-ead",
+                    columns: [
+                        ["INFORMÁTICA BÁSICA (40H)", "BANCO DE DADOS I (40H)", "BANCO DE DADOS II (40H)", "DESENVOLVIMENTO WEB I (80H)", "REDES DE COMPUTADORES (40H)", "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS (40H)"],
+                        ["LÓGICA MATEMÁTICA (40H)", "ENG. DE SW I (40H)", "DESENVOLVIMENTO WEB III (80H)", "SISTEMAS OPERACIONAIS (40H)", "PROJETO INTEGRADOR I (40H)", "SEGURANÇA DA INFORMAÇÃO (40H)"],
+                        ["LÓGICA DE PROGRAMAÇÃO (80H)", "DESENVOLVIMENTO WEB II (80H)", "PROJETO INTEGRADOR II (80H)", "ENG. DE SW II (40H)"]
+                    ]
+                }
+            ];
 
-    <section class="section about">
-        <div class="container">
-            <h2 class="section-title">Sobre o Evento</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>O Encontro sobre Autismo do IFCE Baturité é um evento dedicado a promover o conhecimento, a
-                        conscientização e a inclusão das pessoas com Transtorno do Espectro Autista (TEA). Nosso
-                        objetivo é reunir profissionais, familiares, estudantes e toda a comunidade para compartilhar
-                        experiências, metodologias e estratégias que favoreçam o desenvolvimento e a inclusão social.
-                    </p>
-                    <br>
-                    <p>Durante um dia completo de atividades, teremos palestras especializadas, oficinas práticas,
-                        relatos de experiência e momentos de networking, proporcionando um espaço rico de aprendizado e
-                        troca de conhecimentos sobre o autismo.</p>
-                </div>
-                <div class="about-visual">
-                    <carrosel-component></carrosel-component>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section program">
-        <div class="container">
-            <h2 class="section-title">Programação do Evento</h2>
-            <div class="program-grid">
-                <atividade-item horario="08:00"
-                    titulo='Palestra de Abertura: “Orgulho Autista: Celebrando a Neurodiversidade”'
-                    descricao="Palestrante: Samira Leão (professora do IFCE e neuropsicopedagoga)" tipo="apresentacao">
-                </atividade-item>
-
-                <atividade-item horario="09:00" titulo="Intervalo" tipo="intervalo" descricao="">
-                </atividade-item>
-
-            <atividade-item horario="9:30" titulo="Apresentação teatral com o Grupo Artístico Chico Anísio (GRACHA) campus Maranguape"
-                tipo="destaque"></atividade-item>
-            
-
-                <atividade-item horario="10:00"
-                    titulo='Mesa-redonda: Direitos da Pessoa com autismo: Garantir é Lei, respeitar é dever.'
-                    palestrante="Wlises Libânio (Presidente do Projeto Alma Pura) | Artur Emilio (Conselheiro Tutelar do município de Baturité) | Cícero Vital (professor do IFCE e advogado)"
-                    descricao="Convidados:
-Wlises Libânio (Presidente do Projeto Alma Pura),
-Artur Emilio (Conselheiro Tutelar do município de Baturité) e 
-Cícero Vital (professor do IFCE e advogado)" tipo="destaque">
-                </atividade-item>
-
-                <atividade-item horario="12:00" titulo="Intervalo para o Almoço" descricao="" tipo="intervalo">
-                </atividade-item>
-
-                <atividade-item horario="13:15" titulo="Apresentação musical"
-                    descricao="Ulisses Teixeira (estudante do curso de gastronomia)" tipo="apresentacao">
-                </atividade-item>
-
-                <atividade-item horario="13:45"
-                    titulo='Relato de experiências: “Vozes que vivem o Autismo: compartilhando histórias reais”'
-                    palestrante="Lilian Nascimento (mãe de pessoa com autismo) | Maria do Socorro Mendes de Vasconcelos (mãe de pessoa com autismo) | Thiago Vasconcelos Freitas (adolescente com autismo)"
-                    tipo="destaque" descricao="Convidados:
-Lilian Nascimento (mãe de pessoa com autismo),
-Maria do Socorro Mendes de Vasconcelos (mãe de pessoa com autismo) e
-Thiago Vasconcelos Freitas (adolescente com autismo)">
-                </atividade-item>
-
-                <atividade-item horario="15:00" titulo="Intervalo" descricao="">
-                </atividade-item>
-
-                <atividade-item horario="15:30"
-                titulo='Experiências Sensoriais: “Sentir para Compreender: Um mergulho no mundo sensorial”'
-                descricao="Sala de Imersão Sensorial - Prof. Jefferson Gurguri | Sala de AEE - Profª. Samira Leão | Experiências de Robótica com adolescentes da Associação TEAcolhe (Antônio Ediney do nascimento ferreira, Antônio Alcides do nascimento ferreira)"
-                tipo="apresentacao"></atividade-item>
-                </atividade-item>
-            </div>
-        </div>
-    </section>
-
-    <section class="section location">
-        <div class="container">
-            <h2 class="section-title">Local do Evento</h2>
-            <div class="location-content">
-                <div class="location-info">
-                    <h3>IFCE Campus Baturité</h3>
-                    <p>O evento será realizado no auditório principal do Instituto Federal de Educação, Ciência e
-                        Tecnologia do Ceará, Campus Baturité, uma instituição reconhecida pela excelência em educação e
-                        compromisso com a inclusão social.</p>
-                    <div class="location-address">
-                        <strong>Endereço:</strong><br>
-                        Av. Ouvidor Vitóriano Soares Barbosa, 160<br>
-                        Sanharão - Baturité/CE<br>
-                        CEP: 62760-000
+            // Função para exibir uma caixa de mensagem personalizada (substitui alert())
+            function showMessageBox(message) {
+                const messageBox = document.createElement('div');
+                messageBox.className = 'fixed inset-0 bg-gray-600 bg-opacity-75 flex items-center justify-center z-50';
+                messageBox.innerHTML = `
+                    <div class="bg-white p-6 rounded-lg shadow-xl text-center max-w-sm mx-auto">
+                        <p class="text-lg font-semibold mb-4 text-gray-800">${message}</p>
+                        <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-md transition duration-200"
+                                onclick="this.closest('.fixed').remove()">
+                            Fechar
+                        </button>
                     </div>
-                </div>
-                <div style="text-align: center; font-size: 8rem; opacity: 0.8;">
-                    <img src="./public/campus.jpg" alt="IFCE Campus Baturité"
-                        style="max-width: 90%; height: auto; border-radius: 10px;">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section contact" id="inscricoes">
-        <div class="container">
-            <h2 class="section-title">Inscrições e Contato</h2>
-            <p style="font-size: 1.2rem; margin-bottom: 2rem; color: #555;">
-                As inscrições são gratuitas e limitadas. Garante já sua vaga!
-            </p>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <img src="public/napne.jpeg" style="width: 80px; height: 80px; border-radius: 50%;">
-                    </div>
-                    <h3><a href="mailto:napne@baturite.ifce.edu.br">napne@baturite.ifce.edu.br</a></h3>
-                    <p>E-mail</p>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon"><i class="fa-brands fa-instagram"></i></div>
-                    <h3><a href="https://www.instagram.com/ifcebaturiteoficial/">@ifcebaturiteoficial</a></h3>
-                    <p>Instagram</p>
-                </div>
+                `;
+                document.body.appendChild(messageBox);
+            }
 
-            </div>
-            <div style="margin-top: 3rem;">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0rgOhj5YGGv3aruI7FzMma0ANTMHeW4K-Gr5IyTC2y_KO2w/viewform?usp=dialog" class="cta-button">Inscrever-se Agora</a>
-            </div>
-        </div>
-    </section>
+            // Função para criar o HTML das disciplinas em formato de colunas
+            function createDisciplinesHTML() {
+                const container = document.createElement('div');
+                container.className = "flex flex-col gap-8"; // Adiciona espaçamento entre as faixas
 
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 IFCE Campus Baturité - Simpósio sobre Autismo. Todos os direitos reservados.</p>
-            <p style="margin-top: 0.5rem; opacity: 0.8;">Juntos pela inclusão e compreensão do espectro autista</p>
-        </div>
-    </footer>
-    <script src="main.js" type="module"></script>
+                disciplinesData.forEach(trackData => {
+                    const trackSection = document.createElement('div');
+                    trackSection.className = "mb-8";
+
+                    const trackTitle = document.createElement('h2');
+                    trackTitle.className = "track-title";
+                    trackTitle.textContent = trackData.track;
+                    trackSection.appendChild(trackTitle);
+
+                    const trackGrid = document.createElement('div');
+                    // Define o número de colunas baseado na quantidade de colunas nos dados
+                    trackGrid.style.gridTemplateColumns = `repeat(${trackData.columns.length}, 1fr)`;
+                    trackGrid.className = "track-grid";
+
+                    // Itera sobre cada coluna de disciplinas
+                    trackData.columns.forEach(columnDisciplines => {
+                        const columnDiv = document.createElement('div');
+                        columnDiv.className = "grid-column"; // Aplica estilo de coluna flexbox
+                        
+                        // Itera sobre cada disciplina dentro da coluna
+                        columnDisciplines.forEach(discipline => {
+                            const button = document.createElement('div');
+                            button.className = `discipline-button ${trackData.colorClass}`;
+                            button.textContent = discipline;
+                            button.onclick = () => showMessageBox(`Você clicou em: ${discipline}`);
+                            columnDiv.appendChild(button);
+                        });
+                        trackGrid.appendChild(columnDiv);
+                    });
+                    trackSection.appendChild(trackGrid);
+                    container.appendChild(trackSection);
+                });
+                return container;
+            }
+
+            // Adiciona o conteúdo ao carregar a janela
+            window.onload = function() {
+                const contentContainer = document.querySelector('.container-main');
+                if (contentContainer) {
+                    contentContainer.appendChild(createDisciplinesHTML());
+                }
+            };
+        </script>
+    </div>
 </body>
-
 </html>
+
