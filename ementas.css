@@ -1,0 +1,15 @@
+        body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; border-bottom: 2px solid #34495e; padding-bottom: 5px; margin-top: 30px; }
+        h3 { color: #2980b9; margin-top: 20px; }
+        ul { list-style-type: disc; margin-left: 20px; }
+        p { margin-bottom: 10px; }
+        .campus-section { background-color: #f9f9f9; border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; border-radius: 8px; }
+        .note { font-style: italic; color: #e74c3c; margin-top: 15px; }
+
+        h3:target {
+            background-color: yellow;
+        }
+        h3:target + p{
+            background-color: yellow;
+        }

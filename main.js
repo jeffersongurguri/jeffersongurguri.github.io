@@ -4,7 +4,7 @@ import disciplinesData from "./data.json" with { type: "json" };
 
 
 // Função para simular a navegação (em um ambiente real, isso mudaria a URL da página)
-function navigateToUrl(url) {
+function simulateNavigateToUrl(url) {
     // Em um ambiente de navegador real, você usaria:
     // window.location.href = url;
 
@@ -24,6 +24,11 @@ function navigateToUrl(url) {
                 `;
     document.body.appendChild(messageBox);
 }
+
+function navigateToUrl(url) {
+    window.location.href = url;
+}
+
 
 // Função para criar o HTML das disciplinas em formato de colunas
 function createDisciplinesHTML() {
