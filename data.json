@@ -1,61 +1,72 @@
-[
+       [
   {
     "track": "CRATO",
     "disciplines": [
       {
         "name": "INTRODUÇÃO A INFORMÁTICA",
         "workload_ch": 160,
-        "url": "/crato/introducao-a-informatica"
+        "url": "/assets/pdfs/crato/introducao-a-informatica.pdf",
+        "semestre": 1
       },
       {
         "name": "LINGUAGEM DE PROGRAMAÇÃO I",
         "workload_ch": 80,
-        "url": "/crato/linguagem-de-programacao-i"
+        "url": "/assets/pdfs/crato/linguagem-de-programacao-i.pdf",
+        "semestre": 2
       },
       {
         "name": "REDES DE COMPUTADORES",
         "workload_ch": 80,
-        "url": "/crato/redes-de-computadores"
+        "url": "/assets/pdfs/crato/redes-de-computadores.pdf",
+        "semestre": 3
       },
       {
         "name": "PROGRAMAÇÃO MOBILE",
         "workload_ch": 80,
-        "url": "/crato/programacao-mobile"
+        "url": "/assets/pdfs/crato/programacao-mobile.pdf",
+        "semestre": 1
       },
       {
         "name": "IHC COM DESENVOLVIMENTO DE SOFTWARE",
         "workload_ch": 40,
-        "url": "/crato/ihc-com-desenvolvimento-de-software"
+        "url": "/assets/pdfs/crato/ihc-com-desenvolvimento-de-software.pdf",
+        "semestre": 2
       },
       {
         "name": "LINGUAGEM DE PROGRAMAÇÃO WEB",
         "workload_ch": 80,
-        "url": "/crato/linguagem-de-programacao-web"
+        "url": "/assets/pdfs/crato/linguagem-de-programacao-web.pdf",
+        "semestre": 3
       },
       {
         "name": "BANCO DE DADOS",
         "workload_ch": 80,
-        "url": "/crato/banco-de-dados"
+        "url": "/assets/pdfs/crato/banco-de-dados.pdf",
+        "semestre": 1
       },
       {
         "name": "LINGUAGEM DE PROGRAMAÇÃO II",
         "workload_ch": 120,
-        "url": "/crato/linguagem-de-programacao-ii"
+        "url": "/assets/pdfs/crato/linguagem-de-programacao-ii.pdf",
+        "semestre": 2
       },
       {
         "name": "ENGENHARIA DE SOFTWARE",
         "workload_ch": 80,
-        "url": "/crato/engenharia-de-software"
+        "url": "/assets/pdfs/crato/engenharia-de-software.pdf",
+        "semestre": 3
       },
       {
         "name": "LINGUAGEM DE PROGRAMAÇÃO WEB",
         "workload_ch": 120,
-        "url": "/crato/linguagem-de-programacao-web-2"
+        "url": "/assets/pdfs/crato/linguagem-de-programacao-web.pdf",
+        "semestre": 1
       },
       {
         "name": "LINGUAGEM DE PROGRAMAÇÃO WEB III",
         "workload_ch": 80,
-        "url": "/crato/linguagem-de-programacao-web-iii"
+        "url": "/assets/pdfs/crato/linguagem-de-programacao-web-iii.pdf",
+        "semestre": 2
       }
     ]
   },
@@ -65,62 +76,74 @@
       {
         "name": "BASES DE COMPUTAÇÃO",
         "workload_ch": 80,
-        "url": "/jagua/bases-de-computacao"
+        "url": "/assets/pdfs/jagua/bases-de-computacao.pdf",
+        "semestre": 1
       },
       {
         "name": "BANCO DE DADOS",
         "workload_ch": 80,
-        "url": "/jagua/banco-de-dados-2"
+        "url": "/assets/pdfs/jagua/banco-de-dados-2.pdf",
+        "semestre": 2
       },
       {
         "name": "PRODUÇÃO DE CONTEÚDO TÉCNICO",
         "workload_ch": 40,
-        "url": "/jagua/producao-de-conteudo-tecnico"
+        "url": "/assets/pdfs/jagua/producao-de-conteudo-tecnico.pdf",
+        "semestre": 3
       },
       {
         "name": "PRÁTICA PROFISSIONAL",
         "workload_ch": 40,
-        "url": "/jagua/pratica-profissional"
+        "url": "/assets/pdfs/jagua/pratica-profissional.pdf",
+        "semestre": 1
       },
       {
         "name": "FUNDAMENTOS DE WEB",
         "workload_ch": 80,
-        "url": "/jagua/fundamentos-de-web"
+        "url": "/assets/pdfs/jagua/fundamentos-de-web.pdf",
+        "semestre": 2
       },
       {
         "name": "DESENVOLVIMENTO WEB I",
         "workload_ch": 80,
-        "url": "/jagua/desenvolvimento-web-i"
+        "url": "/assets/pdfs/jagua/desenvolvimento-web-i.pdf",
+        "semestre": 3
       },
       {
         "name": "POO E APSOO",
         "workload_ch": 120,
-        "url": "/jagua/poo-e-apsoo"
+        "url": "/assets/pdfs/jagua/poo-e-apsoo.pdf",
+        "semestre": 1
       },
       {
         "name": "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS",
         "workload_ch": 120,
-        "url": "/jagua/programacao-para-dispositivos-moveis"
+        "url": "/assets/pdfs/jagua/programacao-para-dispositivos-moveis.pdf",
+        "semestre": 2
       },
       {
         "name": "INTRODUÇÃO A LÓGICA DE PROGRAMAÇÃO",
         "workload_ch": 120,
-        "url": "/jagua/introducao-a-logica-de-programacao"
+        "url": "/assets/pdfs/jagua/introducao-a-logica-de-programacao.pdf",
+        "semestre": 3
       },
       {
         "name": "INTRO A ARQUITETURA DE REDES E SERVIDORES WEB",
         "workload_ch": 80,
-        "url": "/jagua/intro-a-arquitetura-de-redes-e-servidores-web"
+        "url": "/assets/pdfs/jagua/intro-a-arquitetura-de-redes-e-servidores-web.pdf",
+        "semestre": 1
       },
       {
         "name": "ENG. DE SW E GESTÃO DE PROJETOS",
         "workload_ch": 80,
-        "url": "/jagua/eng-de-sw-e-gestao-de-projetos"
+        "url": "/assets/pdfs/jagua/eng-de-sw-e-gestao-de-projetos.pdf",
+        "semestre": 2
       },
       {
         "name": "DESENVOLVIMENTO WEB II",
         "workload_ch": 80,
-        "url": "/jagua/desenvolvimento-web-ii"
+        "url": "/assets/pdfs/jagua/desenvolvimento-web-ii.pdf",
+        "semestre": 3
       }
     ]
   },
@@ -130,82 +153,98 @@
       {
         "name": "INFORMÁTICA BÁSICA",
         "workload_ch": 40,
-        "url": "/bat-ead/informatica-basica"
+        "url": "/assets/pdfs/bat-ead/informatica-basica.pdf",
+        "semestre": 1
       },
       {
         "name": "BANCO DE DADOS I",
         "workload_ch": 40,
-        "url": "/bat-ead/banco-de-dados-i"
+        "url": "/assets/pdfs/bat-ead/banco-de-dados-i.pdf",
+        "semestre": 2
       },
       {
         "name": "BANCO DE DADOS II",
         "workload_ch": 40,
-        "url": "/bat-ead/banco-de-dados-ii"
+        "url": "/assets/pdfs/bat-ead/banco-de-dados-ii.pdf",
+        "semestre": 3
       },
       {
         "name": "DESENVOLVIMENTO WEB I",
         "workload_ch": 80,
-        "url": "/bat-ead/desenvolvimento-web-i-2"
+        "url": "/assets/pdfs/bat-ead/desenvolvimento-web-i.pdf",
+        "semestre": 1
       },
       {
         "name": "REDES DE COMPUTADORES",
         "workload_ch": 40,
-        "url": "/bat-ead/redes-de-computadores-2"
+        "url": "/assets/pdfs/bat-ead/redes-de-computadores.pdf",
+        "semestre": 2
       },
       {
         "name": "PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS",
         "workload_ch": 40,
-        "url": "/bat-ead/programacao-para-dispositivos-moveis-2"
+        "url": "/assets/pdfs/bat-ead/programacao-para-dispositivos-moveis.pdf",
+        "semestre": 3
       },
       {
         "name": "LÓGICA MATEMÁTICA",
         "workload_ch": 40,
-        "url": "/bat-ead/logica-matematica"
+        "url": "/assets/pdfs/bat-ead/logica-matematica.pdf",
+        "semestre": 1
       },
       {
         "name": "ENG. DE SW I",
         "workload_ch": 40,
-        "url": "/bat-ead/eng-de-sw-i"
+        "url": "/assets/pdfs/bat-ead/eng-de-sw-i.pdf",
+        "semestre": 2
       },
       {
         "name": "DESENVOLVIMENTO WEB III",
         "workload_ch": 80,
-        "url": "/bat-ead/desenvolvimento-web-iii"
+        "url": "/assets/pdfs/bat-ead/desenvolvimento-web-iii.pdf",
+        "semestre": 3
       },
       {
         "name": "SISTEMAS OPERACIONAIS",
         "workload_ch": 40,
-        "url": "/bat-ead/sistemas-operacionais"
+        "url": "/assets/pdfs/bat-ead/sistemas-operacionais.pdf",
+        "semestre": 1
       },
       {
         "name": "PROJETO INTEGRADOR I",
         "workload_ch": 40,
-        "url": "/bat-ead/projeto-integrador-i"
+        "url": "/assets/pdfs/bat-ead/projeto-integrador-i.pdf",
+        "semestre": 2
       },
       {
         "name": "SEGURANÇA DA INFORMAÇÃO",
         "workload_ch": 40,
-        "url": "/bat-ead/seguranca-da-informacao"
+        "url": "/assets/pdfs/bat-ead/seguranca-da-informacao.pdf",
+        "semestre": 3
       },
       {
         "name": "LÓGICA DE PROGRAMAÇÃO",
         "workload_ch": 80,
-        "url": "/bat-ead/logica-de-programacao"
+        "url": "/assets/pdfs/bat-ead/logica-de-programacao.pdf",
+        "semestre": 1
       },
       {
         "name": "DESENVOLVIMENTO WEB II",
         "workload_ch": 80,
-        "url": "/bat-ead/desenvolvimento-web-ii-2"
+        "url": "/assets/pdfs/bat-ead/desenvolvimento-web-ii.pdf",
+        "semestre": 2
       },
       {
         "name": "PROJETO INTEGRADOR II",
         "workload_ch": 80,
-        "url": "/bat-ead/projeto-integrador-ii"
+        "url": "/assets/pdfs/bat-ead/projeto-integrador-ii.pdf",
+        "semestre": 3
       },
       {
         "name": "ENG. DE SW II",
         "workload_ch": 40,
-        "url": "/bat-ead/eng-de-sw-ii"
+        "url": "/assets/pdfs/bat-ead/eng-de-sw-ii.pdf",
+        "semestre": 1
       }
     ]
   }
