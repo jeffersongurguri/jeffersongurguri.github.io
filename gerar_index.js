@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Caminhos para a pasta que será lida e para o arquivo gerado
-const pastaRascunhos = path.join(__dirname, 'Rascunhos');
+const pastaRascunhos = path.join(__dirname, 'Docs');
 const arquivoSaida = path.join(__dirname, 'index.html');
 
 // Lê o conteúdo da pasta Rascunhos
