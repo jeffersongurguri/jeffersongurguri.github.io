@@ -8,13 +8,13 @@ const arquivoSaida = path.join(__dirname, 'index.html');
 // Lê o conteúdo da pasta Rascunhos
 fs.readdir(pastaRascunhos, (err, arquivos) => {
     if (err) {
-        return console.error('Erro ao ler a pasta Rascunhos. Certifique-se de que ela existe.', err);
+        return console.error('Erro ao ler a pasta Docs. Certifique-se de que ela existe.', err);
     }
 
     // Cria os links HTML para cada arquivo encontrado
     const links = arquivos.map(arquivo => {
         return `            <li>
-                <a href="Rascunhos/${arquivo}" target="_blank">📄 ${arquivo}</a>
+                <a href="Docs/${arquivo}" target="_blank">📄 ${arquivo}</a>
             </li>`;
     }).join('\n');
 
