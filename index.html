@@ -1,312 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-PT">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoMotos Baturité | Lab de Conversão</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Índice de Rascunhos</title>
     <style>
-        body { font-family: 'Inter', sans-serif; }
-        .bg-ifce-dark { background-color: #14532D; } /* Verde Escuro Institucional */
-        .bg-ifce-green { background-color: #2F9E41; } /* Verde Claro IFCE */
-        .text-ifce-accent { color: #4ADE80; } /* Verde Contraste */
-        .text-ifce-red { color: #CC0000; } /* Vermelho IFCE */
-        .border-ifce-red { border-color: #CC0000; }
-        .border-ifce-dark { border-color: #14532D; }
-        .bg-ifce-red { background-color: #CC0000; }
-        .funnel-step:hover { transform: translateX(10px); transition: all 0.3s ease; }
-        #workshop:hover { transform: scale(1.15); transition: all 0.3s ease; background-color: rgb(4, 23, 66); }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f9f9f9; 
+            color: #333; 
+            padding: 40px; 
+            max-width: 800px; 
+            margin: 0 auto; 
+        }
+        h1 { 
+            border-bottom: 2px solid #0056b3; 
+            padding-bottom: 10px; 
+            color: #0056b3;
+        }
+        ul { 
+            list-style-type: none; 
+            padding: 0; 
+        }
+        li { 
+            background: white; 
+            margin: 8px 0; 
+            padding: 15px; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        li:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        a { 
+            text-decoration: none; 
+            color: #333; 
+            font-weight: 500; 
+            display: block;
+        }
+        a:hover { 
+            color: #0056b3; 
+        }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
-
-    <!-- Hero Section -->
-    <header class="bg-ifce-dark text-white py-16 px-6 text-center border-b-4 border-ifce-red">
-        <div class="max-w-4xl mx-auto">
-            <span class="text-ifce-accent font-semibold tracking-widest uppercase text-sm">Marketing Strategy Lab</span>
-            <h1 class="text-5xl font-bold mt-4 mb-6 italic">AutoMotos Baturité</h1>
-            <p class="text-slate-400 text-lg max-w-2xl mx-auto">
-                Transformar dados comportamentais em conversão real através de Web Applications e criatividade estratégica.
-            </p>
-        </div>
-    </header>
-
-    <main class="max-w-6xl mx-auto py-12 px-6">
-        
-        <!-- Objective Section -->
-        <section class="mb-16">
-            <div class="bg-white p-8 rounded-2xl shadow-sm border-l-8 border-ifce-dark">
-                <h2 class="text-2xl font-bold mb-4">O Briefing</h2>
-                <p class="text-slate-600 leading-relaxed">
-                    A conversão de leads é a espinha dorsal de qualquer operação digital. O seu desafio como agência é orquestrar o movimento do lead através do <span class="font-semibold italic">Sales Funnel</span>, utilizando dados psicográficos para romper a barreira do ecrã e levar o cliente até à nossa oficina de sonhos em Baturité.
-                </p>
-            </div>
-        </section>
-
-        <!-- Explorador Interativo de Funil e Personas (Expanded to 5) -->
-        <section class="mb-20 bg-slate-100 -mx-6 px-6 py-16 rounded-3xl border border-slate-200">
-            <div class="text-center mb-12">
-                <span class="text-ifce-red font-bold tracking-widest uppercase text-sm">Dashboard Interativo 2.0</span>
-                <h2 class="text-3xl font-bold mt-2">O Espectro Completo de Conversão</h2>
-                <p class="text-slate-500 mt-2">Clique nas 5 microetapas do funil para revelar os dados psicográficos do lead.</p>
-            </div>
-
-            <div class="grid lg:grid-cols-12 gap-12 items-start max-w-5xl mx-auto">
-                
-                <!-- Coluna Esquerda: Funil SVG (5 Estágios) -->
-                <div class="lg:col-span-5 bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
-                    <svg viewBox="0 0 300 400" class="w-full h-auto drop-shadow-md">
-                        <!-- Stage 1: ToFu (Mariana) -->
-                        <g onclick="selectPersona('stage1')" class="cursor-pointer group">
-                            <polygon id="poly-stage1" points="0,0 300,0 281,75 19,75" class="fill-slate-200 transition-all duration-300 hover:fill-blue-300" />
-                            <text x="150" y="35" text-anchor="middle" class="font-bold text-slate-800 text-base pointer-events-none">TOPO (ToFu)</text>
-                            <text x="150" y="55" text-anchor="middle" class="text-slate-600 text-xs pointer-events-none">Descoberta</text>
-                        </g>
-                        <!-- Stage 2: MoFu Inicial (João) -->
-                        <g onclick="selectPersona('stage2')" class="cursor-pointer group">
-                            <polygon id="poly-stage2" points="20,80 280,80 261,155 39,155" class="fill-slate-200 transition-all duration-300 hover:fill-purple-300" />
-                            <text x="150" y="110" text-anchor="middle" class="font-bold text-slate-800 text-base pointer-events-none">MEIO (MoFu)</text>
-                            <text x="150" y="130" text-anchor="middle" class="text-slate-600 text-xs pointer-events-none">Interesse</text>
-                        </g>
-                        <!-- Stage 3: MoFu Final (Carlos) -->
-                        <g onclick="selectPersona('stage3')" class="cursor-pointer group">
-                            <polygon id="poly-stage3" points="40,160 260,160 241,235 59,235" class="fill-slate-200 transition-all duration-300 hover:fill-amber-300" />
-                            <text x="150" y="190" text-anchor="middle" class="font-bold text-slate-800 text-base pointer-events-none">MEIO (MoFu)</text>
-                            <text x="150" y="210" text-anchor="middle" class="text-slate-600 text-xs pointer-events-none">Consideração</text>
-                        </g>
-                        <!-- Stage 4: BoFu Inicial (Lúcia) -->
-                        <g onclick="selectPersona('stage4')" class="cursor-pointer group">
-                            <polygon id="poly-stage4" points="60,240 240,240 221,315 79,315" class="fill-slate-200 transition-all duration-300 hover:fill-rose-300" />
-                            <text x="150" y="270" text-anchor="middle" class="font-bold text-slate-800 text-base pointer-events-none">FUNDO (BoFu)</text>
-                            <text x="150" y="290" text-anchor="middle" class="text-slate-600 text-xs pointer-events-none">Intenção</text>
-                        </g>
-                        <!-- Stage 5: BoFu Final (Marcos) -->
-                        <g onclick="selectPersona('stage5')" class="cursor-pointer group">
-                            <polygon id="poly-stage5" points="80,320 220,320 201,395 99,395" class="fill-slate-200 transition-all duration-300 hover:fill-emerald-300" />
-                            <text x="150" y="350" text-anchor="middle" class="font-bold text-slate-800 text-base pointer-events-none">FUNDO (BoFu)</text>
-                            <text x="150" y="370" text-anchor="middle" class="text-slate-600 text-xs pointer-events-none">Decisão</text>
-                        </g>
-                    </svg>
-                </div>
-
-                <!-- Coluna Direita: Cartão Dinâmico da Persona -->
-                <div class="lg:col-span-7">
-                    <div id="persona-card" class="bg-white rounded-2xl overflow-hidden shadow-xl border-t-8 border-blue-500 transition-all duration-500">
-                        <!-- Imagem Ilustrativa -->
-                        <div class="h-64 overflow-hidden relative">
-                            <img id="persona-img" src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=800&auto=format&fit=crop" alt="Persona" class="w-full h-full object-cover transition-opacity duration-300 object-center">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                            <div class="absolute bottom-4 left-6 text-white">
-                                <h3 id="persona-name" class="text-3xl font-bold flex items-center gap-3 drop-shadow-md">
-                                    <span id="persona-icon">🏍️</span> Mariana
-                                </h3>
-                                <p id="persona-title" class="text-blue-300 font-bold uppercase tracking-wide text-sm mt-1 drop-shadow-md">Entusiasta de Viagens</p>
-                            </div>
-                        </div>
-                        
-                        <!-- Conteúdo de Dados -->
-                        <div class="p-8">
-                            <div class="mb-6 pb-6 border-b border-slate-100">
-                                <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 flex items-center gap-2">
-                                    <span>🌐</span> Comportamento Digital
-                                </h4>
-                                <p id="persona-behavior" class="text-slate-700 leading-relaxed">
-                                    5 visualizações em rotas de serra; pesquisa de acessórios de suspensão e bagagem.
-                                </p>
-                            </div>
-                            <div class="mb-8">
-                                <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-2 flex items-center gap-2">
-                                    <span>🧠</span> Dados Psicográficos
-                                </h4>
-                                <p id="persona-psych" class="text-slate-700 leading-relaxed">
-                                    Valoriza a autonomia feminina e a liberdade da estrada. Adepta da cultura Maker (DIY); procura ergonomia aliada a alto torque para subidas.
-                                </p>
-                            </div>
-                            <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 flex items-start gap-4">
-                                <div id="gatilho-bg" class="bg-blue-100 p-2 rounded-lg shrink-0 mt-1">
-                                    <svg class="w-6 h-6 text-blue-600" id="gatilho-color" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                                </div>
-                                <div>
-                                    <h4 class="text-sm font-bold text-slate-900">Gatilho de Copywriting (Prototipagem)</h4>
-                                    <p id="persona-gatilho" class="text-slate-600 text-sm mt-1 font-mono">
-                                        Roteiro e Checklist "Para Ela e a Moto".
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- The Mission -->
-        <section class="mb-20">
-            <div class="bg-ifce-dark text-white p-12 rounded-3xl relative overflow-hidden">
-                <a href="workshop.html">
-                <div id="workshop" class="relative z-10">
-                    <h2 class="text-4xl font-bold mb-6">Workshop Maker: Prototipagem</h2>
-                    <p class="mb-8 text-slate-300 max-w-2xl">Não desenhamos e-mails, desenhamos jornadas. Utilize o seu kit de papel para materializar a conversão.</p>
-                    
-                    <div class="grid md:grid-cols-2 gap-12">
-                        <div>
-                            <h4 class="text-ifce-accent font-bold mb-4 flex items-center">
-                                <span class="mr-2">⚡</span> Entregáveis Obrigatórios
-                            </h4>
-                            <ul class="space-y-3 text-sm">
-                                <li class="flex items-center"><span class="w-1.5 h-1.5 bg-ifce-red rounded-full mr-2"></span> Assunto Ultrapersonalizado</li>
-                                <li class="flex items-center"><span class="w-1.5 h-1.5 bg-ifce-red rounded-full mr-2"></span> Wireframe Mobile-First</li>
-                                <li class="flex items-center"><span class="w-1.5 h-1.5 bg-ifce-red rounded-full mr-2"></span> CTA Contextual (Post-it)</li>
-                                <li class="flex items-center"><span class="w-1.5 h-1.5 bg-ifce-red rounded-full mr-2"></span> Hierarquia Visual de Atributos</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h4 class="text-ifce-accent font-bold mb-4 flex items-center">
-                                <span class="mr-2">📈</span> KPIs de Avaliação
-                            </h4>
-                            <ul class="space-y-3 text-sm">
-                                <li class="flex items-center"><span class="w-1.5 h-1.5 bg-ifce-red rounded-full mr-2"></span> Relevância da Cópia (Copy)</li>
-                                <li class="flex items-center"><span class="w-1.5 h-1.5 bg-ifce-red rounded-full mr-2"></span> Clareza da Proposta de Valor</li>
-                                <li class="flex items-center"><span class="w-1.5 h-1.5 bg-ifce-red rounded-full mr-2"></span> Escaneabilidade (Leitura em F)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                </a>
-                <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-ifce-green opacity-20 rounded-full"></div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="bg-white py-12 border-t border-slate-200 text-center">
-        <p class="text-slate-400 text-xs uppercase tracking-widest mb-2">&copy; 2026 AutoMotos Baturité Agency Lab</p>
-        <p class="text-slate-600 font-semibold text-sm">Material desenvolvido para o Laboratório de Marketing | Prof. Jefferson Gurguri | IFCE Campus Baturité</p>
-    </footer>
-
-    <!-- Script de Interatividade -->
-    <script>
-        const personaData = {
-            'stage1': {
-                name: 'Mariana',
-                icon: '🏍️',
-                title: 'Entusiasta de Viagens',
-                titleClasses: 'text-blue-300 font-bold uppercase tracking-wide text-sm mt-1 drop-shadow-md',
-                cardClasses: 'bg-white rounded-2xl overflow-hidden shadow-xl border-t-8 border-blue-500 transition-all duration-500',
-                bgClass: 'bg-blue-100 p-2 rounded-lg shrink-0 mt-1',
-                iconClass: 'w-6 h-6 text-blue-600',
-                activePoly: '!fill-blue-500',
-                hoverPoly: 'hover:fill-blue-300',
-                img: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=800&auto=format&fit=crop',
-                behavior: '5 visualizações em rotas de serra; pesquisa de acessórios de suspensão e bagagem.',
-                psych: 'Valoriza a autonomia feminina e a liberdade da estrada. Adepta da cultura Maker (DIY); procura ergonomia aliada a alto torque para subidas.',
-                gatilho: 'Roteiro de Viagem e Checklist "Para Ela e a Moto".'
-            },
-            'stage2': {
-                name: 'João',
-                icon: '🛵',
-                title: 'O Jovem Urbano Conectado',
-                titleClasses: 'text-purple-300 font-bold uppercase tracking-wide text-sm mt-1 drop-shadow-md',
-                cardClasses: 'bg-white rounded-2xl overflow-hidden shadow-xl border-t-8 border-purple-500 transition-all duration-500',
-                bgClass: 'bg-purple-100 p-2 rounded-lg shrink-0 mt-1',
-                iconClass: 'w-6 h-6 text-purple-600',
-                activePoly: '!fill-purple-500',
-                hoverPoly: 'hover:fill-purple-300',
-                img: 'https://images.unsplash.com/photo-1519689680058-324335c77eba?q=80&w=800&auto=format&fit=crop',
-                behavior: 'Clicou em anúncios no Instagram. Navegou pelas galerias de fotos focando no painel digital e conectividade Bluetooth de modelos hatch e scooters.',
-                psych: 'Busca independência e o primeiro veículo. Tem orçamento apertado, valorizando a economia de combustível, conectividade constante (Apple CarPlay/Android Auto) e facilidade de estacionar.',
-                gatilho: '"Mobilidade Inteligente: Economize Tempo e Dinheiro no Dia a Dia".'
-            },
-            'stage3': {
-                name: 'Carlos',
-                icon: '🚛',
-                title: 'Comparador de Performance',
-                titleClasses: 'text-amber-300 font-bold uppercase tracking-wide text-sm mt-1 drop-shadow-md',
-                cardClasses: 'bg-white rounded-2xl overflow-hidden shadow-xl border-t-8 border-amber-500 transition-all duration-500',
-                bgClass: 'bg-amber-100 p-2 rounded-lg shrink-0 mt-1',
-                iconClass: 'w-6 h-6 text-amber-600',
-                activePoly: '!fill-amber-500',
-                hoverPoly: 'hover:fill-amber-300',
-                img: 'https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=800&auto=format&fit=crop',
-                behavior: 'Comparou especificações entre uma Picape Média e um SUV; efetuou o download de catálogos técnicos prestando atenção às capacidades de carga.',
-                psych: 'Focado no utilitarismo e na durabilidade. Utiliza o veículo como ferramenta de trabalho pesado e para projetos logísticos de bricolage. Ignora o "luxo" supérfluo.',
-                gatilho: 'Comparativo Técnico "Carga Bruta vs Estabilidade Estrutural".'
-            },
-            'stage4': {
-                name: 'Lúcia',
-                icon: '🔑',
-                title: 'A Cliente de Upgrade',
-                titleClasses: 'text-rose-300 font-bold uppercase tracking-wide text-sm mt-1 drop-shadow-md',
-                cardClasses: 'bg-white rounded-2xl overflow-hidden shadow-xl border-t-8 border-rose-500 transition-all duration-500',
-                bgClass: 'bg-rose-100 p-2 rounded-lg shrink-0 mt-1',
-                iconClass: 'w-6 h-6 text-rose-600',
-                activePoly: '!fill-rose-500',
-                hoverPoly: 'hover:fill-rose-300',
-                img: 'https://images.unsplash.com/photo-1619405399517-d7fce0f13302?q=80&w=800&auto=format&fit=crop',
-                behavior: 'Já é cliente (comprou há 4 anos). Passou 15 minutos na página "Avalie seu Usado" e consultou o catálogo completo do novo SUV Premium.',
-                psych: 'Busca status, conforto premium e uma transição sem dores de cabeça. Valoriza profundamente o relacionamento e exige que o seu atual veículo seja bem avaliado na troca.',
-                gatilho: 'Convite "Condição VIP Fidelidade: Superavaliação do seu Usado".'
-            },
-            'stage5': {
-                name: 'Marcos',
-                icon: '👨‍👩‍👧',
-                title: 'Desistente do Checkout',
-                titleClasses: 'text-emerald-300 font-bold uppercase tracking-wide text-sm mt-1 drop-shadow-md',
-                cardClasses: 'bg-white rounded-2xl overflow-hidden shadow-xl border-t-8 border-emerald-500 transition-all duration-500',
-                bgClass: 'bg-emerald-100 p-2 rounded-lg shrink-0 mt-1',
-                iconClass: 'w-6 h-6 text-emerald-600',
-                activePoly: '!fill-emerald-500',
-                hoverPoly: 'hover:fill-emerald-300',
-                img: 'https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=800&auto=format&fit=crop',
-                behavior: 'Abandono de carrinho na simulação de financiamento; pesquisou por sistemas de fixação de cadeirinhas (ISOFIX) e volume exato do porta-malas.',
-                psych: 'Pai recente. A segurança familiar é a sua prioridade absoluta (funcionando como um "escudo"). Apresenta alta sensibilidade às taxas de juro de longo prazo.',
-                gatilho: 'Canal Direto "Segurança Família" com Taxa Zero e Aprovação Rápida.'
-            }
-        };
-
-        function selectPersona(stage) {
-            const data = personaData[stage];
-            
-            // 1. Atualizar cores dos polígonos do SVG
-            Object.keys(personaData).forEach(key => {
-                const poly = document.getElementById('poly-' + key);
-                if (key === stage) {
-                    poly.setAttribute('class', `fill-slate-200 transition-all duration-300 ${personaData[key].activePoly}`);
-                } else {
-                    poly.setAttribute('class', `fill-slate-200 transition-all duration-300 ${personaData[key].hoverPoly}`);
-                }
-            });
-
-            // 2. Animar transição da imagem
-            const imgEl = document.getElementById('persona-img');
-            imgEl.style.opacity = 0;
-            
-            setTimeout(() => {
-                imgEl.src = data.img;
-                imgEl.style.opacity = 1;
-                
-                // 3. Atualizar textos
-                document.getElementById('persona-name').innerHTML = `<span id="persona-icon">${data.icon}</span> ${data.name}`;
-                
-                const titleEl = document.getElementById('persona-title');
-                titleEl.textContent = data.title;
-                titleEl.className = data.titleClasses;
-                
-                document.getElementById('persona-behavior').textContent = data.behavior;
-                document.getElementById('persona-psych').textContent = data.psych;
-                document.getElementById('persona-gatilho').textContent = data.gatilho;
-
-                // 4. Atualizar cores do cartão (Substituindo completamente a string para evitar conflitos no Tailwind CDN)
-                document.getElementById('persona-card').className = data.cardClasses;
-                document.getElementById('gatilho-bg').className = data.bgClass;
-                document.getElementById('gatilho-color').className = data.iconClass;
-                
-            }, 300);
-        }
-
-        // Inicializar com a primeira etapa (Mariana)
-        window.onload = () => selectPersona('stage1');
-    </script>
+<body>
+    <h1>📁 Meus Rascunhos</h1>
+    <ul>
+            <li>
+                <a href="Rascunhos/draft-mind-documento-intencao-content.html" target="_blank">📄 draft-mind-documento-intencao-content.html</a>
+            </li>
+            <li>
+                <a href="Rascunhos/draft-mind-documento-intencao.html" target="_blank">📄 draft-mind-documento-intencao.html</a>
+            </li>
+            <li>
+                <a href="Rascunhos/draft-principios-content.html" target="_blank">📄 draft-principios-content.html</a>
+            </li>
+            <li>
+                <a href="Rascunhos/draft-principios.html" target="_blank">📄 draft-principios.html</a>
+            </li>
+            <li>
+                <a href="Rascunhos/draft-riscos-content.html" target="_blank">📄 draft-riscos-content.html</a>
+            </li>
+            <li>
+                <a href="Rascunhos/draft-riscos.html" target="_blank">📄 draft-riscos.html</a>
+            </li>
+            <li>
+                <a href="Rascunhos/index.html" target="_blank">📄 index.html</a>
+            </li>
+    </ul>
 </body>
 </html>
