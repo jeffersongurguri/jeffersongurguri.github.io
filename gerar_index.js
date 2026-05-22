@@ -1,8 +1,9 @@
 const fs = require('fs');
 const path = require('path');
+const docPath = "docs"
 
 // Caminhos para a pasta que será lida e para o arquivo gerado
-const pastaRascunhos = path.join(__dirname, 'Docs');
+const pastaRascunhos = path.join(__dirname, docPath);
 const arquivoSaida = path.join(__dirname, 'index.html');
 
 // Lê o conteúdo da pasta Rascunhos
@@ -14,7 +15,7 @@ fs.readdir(pastaRascunhos, (err, arquivos) => {
     // Cria os links HTML para cada arquivo encontrado
     const links = arquivos.map(arquivo => {
         return `            <li>
-                <a href="Docs/${arquivo}" target="_blank">📄 ${arquivo}</a>
+                <a href="${docPath}/${arquivo}" target="_blank">📄 ${arquivo}</a>
             </li>`;
     }).join('\n');
 
