@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animação Conceitual: Open Lab - Diversidade</title>
+    importar bootstrap <!-- Bootstrap Icons CDN -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    
+    <!-- Example icon usage -->
+    <i class="bi bi-alarm"></i>
+    
     <style>
         :root {
             --ifce-green: #2F9E41;
@@ -317,6 +326,29 @@
 
         </div>
     </div>
+
+    <!-- adicionar backlink para "./draft-open-lab.html" -->
+     estilizar backlink como botão
+    <a href="./draft-open-lab.html" class="backlink"><i class="bi bi-arrow-return-left"></i>Voltar para a página do projeto</a>    <style>
+        .backlink {
+            margin-top: 20px;
+            text-decoration: none;
+            color: var(--ifce-dark-green);
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border: 2px solid var(--ifce-green);
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        .backlink:hover {
+            background-color: var(--ifce-green);
+            color: white;
+        }
+    </style>
+    
 
     <div class="author-credit">Idealização do Projeto: Prof. Gurguri</div>
 
