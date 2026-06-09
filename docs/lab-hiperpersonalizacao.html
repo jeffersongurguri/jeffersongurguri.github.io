@@ -36,7 +36,7 @@
             text-align: center;
             border-bottom: 3px solid var(--secondary-color);
             padding-bottom: 20px;
-            margin-bottom: 40px;
+            margin-bottom: 30px;
         }
 
         header h1 {
@@ -51,13 +51,53 @@
             margin: 5px 0;
         }
 
+        /* Sumário / Links Rápidos */
+        .nav-box {
+            background-color: var(--bg-light);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 40px;
+        }
+
+        .nav-box h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        .nav-links a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+
         h2 {
             color: var(--primary-color);
             border-left: 5px solid var(--secondary-color);
             padding-left: 15px;
-            margin-top: 40px;
+            margin-top: 50px;
             margin-bottom: 20px;
             font-size: 1.6rem;
+            scroll-margin-top: 20px;
         }
 
         h3 {
@@ -180,8 +220,20 @@
         <p><strong>Foco:</strong> Gestão de Relacionamento (CRM), Automação e Hiper-Personalização</p>
     </header>
 
-    <!-- ABORDAGEM ESTRATÉGICA -->
-    <section>
+    <!-- ÍNDICE DE NAVEGAÇÃO RÁPIDA -->
+    <nav class="nav-box">
+        <h3>📍 Índice de Conteúdo</h3>
+        <ul class="nav-links">
+            <li><a href="#briefing">1. Briefing Estratégico</a></li>
+            <li><a href="#passo-a-passo">2. Guia de Execução (Passo a Passo)</a></li>
+            <li><a href="#base-dados">3. Base de Dados para Testes</a></li>
+            <li><a href="#modelo-email">4. Modelo do E-mail (Contrato)</a></li>
+            <li><a href="#avaliacao">5. Critérios de Avaliação</a></li>
+        </ul>
+    </nav>
+
+    <!-- 1. BRIEFING ESTRATÉGICO -->
+    <section id="briefing">
         <h2>1. Briefing Estratégico (O Contexto do Negócio)</h2>
         <p>Antes de operar a ferramenta técnica, o administrador precisa entender a <strong>estratégia de marketing</strong> por trás da ação. Abaixo está o alinhamento da campanha que guiará a execução no laboratório.</p>
         
@@ -229,13 +281,13 @@
 
     <hr>
 
-    <!-- ROTEIRO PASSO A PASSO -->
-    <section>
+    <!-- 2. ROTEIRO PASSO A PASSO -->
+    <section id="passo-a-passo">
         <h2>2. Guia de Execução no Laboratório (Passo a Passo)</h2>
-        <p>Siga rigorosamente as etapas abaixo na plataforma <strong>Brevo</strong> para configurar a infraestrutura de CRM e o disparo da campanha.</p>
+        <p>Siga rigorosamente as etapas abaixo utilizando o <strong>Microsoft Excel</strong> e a plataforma <strong>Brevo</strong> para configurar a infraestrutura de CRM e o disparo da campanha.</p>
         
-        <h3>Etapa 1: Estruturação e Criação do Banco de Dados (CSV)</h3>
-        <p>Abra o Excel ou Google Sheets e monte uma tabela com as seguintes colunas exatas. Insira pelo menos <strong>5 linhas com dados fictícios</strong> (utilize seu e-mail próprio em um deles para fins de teste):</p>
+        <h3>Etapa 1: Estruturação e Criação da Planilha de Dados</h3>
+        <p>Abra o <strong>Excel</strong> e monte uma planilha comum com as seguintes colunas na primeira linha (cabeçalho). Elas representam os atributos que serão injetados de forma inteligente em cada e-mail disparado:</p>
         <ul>
             <li><code>EMAIL</code> - E-mail do estudante.</li>
             <li><code>FIRSTNAME</code> - Primeiro nome.</li>
@@ -246,22 +298,88 @@
             <li><code>INTERESSE_TECH</code> - Campo crítico da segmentação. Preencha exclusivamente com uma destas opções padronizadas: <span class="badge">Games</span>, <span class="badge">Design</span>, <span class="badge">Programacao</span> ou <span class="badge">Seguranca</span>.</li>
         </ul>
         <div class="highlight-box">
-            <strong>Atenção Administrador:</strong> Após preencher a tabela, salve o arquivo obrigatoriamente com a extensão <strong>.CSV (Separado por vírgulas)</strong>.
+            <strong>Atenção Administrador:</strong> Após preencher as linhas de dados dos alunos, salve o seu arquivo normalmente no formato padrão do Excel (<strong>.xlsx</strong>).
         </div>
 
         <h3>Etapa 2: Configuração de Atributos e Importação no CRM Brevo</h3>
         <ol>
             <li>Acesse o menu lateral do Brevo e vá em <strong>Contatos > Configurações > Atributos dos contatos</strong>.</li>
-            <li>Adicione novos atributos correspondentes à planilha do curso que não existam nativamente na ferramenta (<code>MATRICULA</code>, <code>TURMA</code>, <code>CARGA_HORARIA_DIARIA</code>, <code>INTERESSE_TECH</code>) configurando o tipo de dados como <strong>Texto</strong>.</li>
-            <li>Acesse <strong>Contatos > Listas > Importar contatos</strong>. Realize o upload do seu arquivo .CSV e faça o mapeamento correto ligando as colunas da planilha aos atributos criados na plataforma.</li>
+            <li>Adicione novos atributos correspondentes à planilha do Excel que não existam nativamente na ferramenta (<code>MATRICULA</code>, <code>TURMA</code>, <code>CARGA_HORARIA_DIARIA</code>, <code>INTERESSE_TECH</code>) configurando o tipo de dados como <strong>Texto</strong>.</li>
+            <li>Acesse <strong>Contatos > Listas > Importar contatos</strong>. Selecione a opção de carregar arquivo e faça o upload direto da sua planilha <strong>.xlsx do Excel</strong>. O Brevo lerá as abas e colunas automaticamente.</li>
+            <li>Realize o mapeamento correto ligando as colunas da sua planilha do Excel aos atributos criados na plataforma.</li>
         </ol>
 
         <h3>Etapa 3: Montagem e Escrita do E-mail Marketing</h3>
-        <p>Crie uma nova campanha de e-mail e utilize as tags dinâmicas de substituição <code>{{ contact.ATRIBUTO }}</code> e a sintaxe condicional <code>{% if %}</code> fornecida no bloco abaixo para automatizar o contrato pedagógico de retenção.</p>
+        <p>Crie uma nova campanha de e-mail e utilize as tags dinâmicas de substituição <code>{{ contact.ATRIBUTO }}</code> e a sintaxe condicional <code>{% if %}</code> fornecida no bloco abaixo para automatizar o contrato pedagógico de relacionamento.</p>
     </section>
 
-    <!-- MODELO DO CONTRATO PARA COPIAR -->
-    <section>
+    <!-- 3. BASE DE DADOS DE TESTE -->
+    <section id="base-dados">
+        <h3>📋 3. Base de Dados Pronta para Testes (Exemplo)</h3>
+        <p>Para facilitar o preenchimento e garantir que você teste todos os cenários da lógica condicional, digite os dados exatamente como estruturados na tabela abaixo dentro do seu Excel. Note que há exatamente um perfil para cada área de interesse tecnológico mapeada na estratégia:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>EMAIL</th>
+                    <th>FIRSTNAME</th>
+                    <th>LASTNAME</th>
+                    <th>MATRICULA</th>
+                    <th>TURMA</th>
+                    <th>CARGA_HORARIA_DIARIA</th>
+                    <th>INTERESSE_TECH</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>seu-email@provedor.com</code></td>
+                    <td>Carlos</td>
+                    <td>Eduardo</td>
+                    <td>2026INF01</td>
+                    <td>1º Ano</td>
+                    <td>2 horas</td>
+                    <td><span class="badge">Games</span></td>
+                </tr>
+                <tr>
+                    <td><code>ana.design@escola.com</code></td>
+                    <td>Ana</td>
+                    <td>Beatriz</td>
+                    <td>2026INF02</td>
+                    <td>2º Ano</td>
+                    <td>3 horas</td>
+                    <td><span class="badge">Design</span></td>
+                </tr>
+                <tr>
+                    <td><code>bruno.dev@escola.com</code></td>
+                    <td>Bruno</td>
+                    <td>Rocha</td>
+                    <td>2026INF03</td>
+                    <td>3º Ano</td>
+                    <td>4 horas</td>
+                    <td><span class="badge">Programacao</span></td>
+                </tr>
+                <tr>
+                    <td><code>julia.sec@escola.com</code></td>
+                    <td>Júlia</td>
+                    <td>Martins</td>
+                    <td>2026INF04</td>
+                    <td>1º Ano</td>
+                    <td>2 horas</td>
+                    <td><span class="badge">Seguranca</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="highlight-box" style="background-color: #fcf8e3; border-left-color: #f0ad4e;">
+            <strong>💡 Dica do Professor:</strong> Na primeira linha da tabela (do aluno Carlos), substitua o e-mail fictício pelo seu <strong>e-mail real</strong> no Excel. Assim, você poderá testar o recebimento na sua própria caixa de entrada e verificar se o gatilho de <i>Games</i> funcionou perfeitamente!
+        </div>
+    </section>
+
+    <!-- 4. MODELO DO CONTRATO PARA COPIAR -->
+    <section id="modelo-email">
+        <h2>4. Modelo do E-mail Marketing (Cópia e Adaptação)</h2>
+        <p>Copie o conteúdo abaixo e insira no editor de texto ou código do Brevo. Fique atento às estruturas de programação lógica aplicadas à comunicação.</p>
+
         <div class="email-template-box">
             <div class="email-subject">
                 <span>Assunto do E-mail:</span> 📝 [Matrícula Confirmada] Termo de Compromisso Pedagógico - {{ contact.FIRSTNAME }}
@@ -292,7 +410,7 @@
             {% elif contact.INTERESSE_TECH == 'Design' %}
                 <blockquote>🎨 Seu foco está em <strong>Design</strong>! Uma boa aplicação precisa ser intuitiva e visualmente incrível. Dedicar seu tempo extraclasse para praticar UI/UX e Front-end vai transformar você no profissional completo que o mercado disputa para criar experiências digitais marcantes.</blockquote>
             {% elif contact.INTERESSE_TECH == 'Programacao' %}
-                <blockquote>💻 Foco total em <strong>Programação</strong>! Dominar o ecossistema do desenvolvimento de software exige consistência. Use seu tempo de estudo para resolver desafios de código e criar APIs robustas. Esse esforço diário é o segredo para se tornar um programador de sucesso!</blockquote>
+                <blockquote>💻 Foco total em <strong>Programação</strong>! Dominar o ecossistema do desenvolvimento de software exige consistência. Use seu tempo de estudo para resolver desafios de código e criar APIs robustas. Esse esforço diário é o secret para se tornar um programador de sucesso!</blockquote>
             {% elif contact.INTERESSE_TECH == 'Seguranca' %}
                 <blockquote>🛡️ Você escolheu <strong>Segurança da Informação</strong>! A proteção de dados e redes é prioridade máxima nas empresas globais hoje. Ao focar seus estudos diários em entender arquitetura e boas práticas de proteção, você estará pavimentando o caminho para uma carreira brilhante.</blockquote>
             {% else %}
@@ -301,32 +419,29 @@
 
             <hr>
 
-            <p><strong>Cláusula 2ª (Das Ferramentas):** Para o acompanhamento das atividades, o aluno declara ter ciência da necessidade de acesso diário ao ambiente virtual de aprendizagem homologado pelo curso.</p>
+            <p><strong>Cláusula 2ª (Das Ferramentas):</strong> Para o acompanhamento das atividades, o aluno declara ter ciência da necessidade de acesso diário ao ambiente virtual de aprendizagem homologado pelo curso.</p>
 
             <p style="margin-top: 30px;">Baturité, 9 de junho de 2026.</p>
         </div>
-    </section>
 
-    <!-- HOMOLOGAÇÃO E CRITÉRIOS -->
-    <section>
         <h3>Etapa 4: Controle de Qualidade e Homologação (Testes)</h3>
         <p>Um profissional de marketing responsável nunca realiza disparos em massa sem testes prévios. Siga o protocolo:</p>
         <ol>
             <li>Dentro do editor do Brevo, ative a opção <strong>"Ver como um contato inscrito"</strong>.</li>
-            <li>Selecione contatos com interesses diferentes (Ex: mude de um contato focado em <i>Games</i> para um focado em <i>Design</i>) e observe se o bloco motivacional muda de acordo com a lógica.</li>
-            <li>Clique em <strong>"Enviar e-mail de teste"</strong> para garantir que os blocos de chaves não cheguem quebrados à caixa de entrada do cliente final.</li>
+            <li>Selecione contatos com interesses diferentes no painel lateral para simular as linhas da planilha do Excel e observe se o bloco motivacional muda de acordo com a lógica.</li>
+            <li>Clique em <strong>"Enviar e-mail de teste"</strong> para garantir que os blocos de chaves não cheguem quebrados à sua caixa de entrada.</li>
         </ol>
     </section>
 
     <hr>
 
-    <!-- AVALIAÇÃO -->
-    <section>
-        <h2>3. Critérios de Entrega e Avaliação</h2>
+    <!-- 5. CRITÉRIOS DE AVALIAÇÃO -->
+    <section id="avaliacao">
+        <h2>5. Critérios de Entrega e Avaliação</h2>
         <p>Cada equipe/aluno deverá gerar um relatório executivo de entrega da atividade contendo os seguintes itens:</p>
         <ul>
             <li><span class="badge-alert badge">Item 1</span> <strong>Mapeamento de CRM:</strong> Print de tela demonstrando a correta criação dos atributos nas configurações da plataforma Brevo.</li>
-            <li><span class="badge-alert badge">Item 2</span> <strong>Validação de Entrega:</strong> Print de tela do e-mail de teste recebido na caixa de entrada, comprovando o correto funcionamento da substituição dinâmica de dados.</li>
+            <li><span class="badge-alert badge">Item 2</span> <strong>Validação de Entrega:</strong> Print de tela do e-mail de teste recebido na caixa de entrada, comprovando o correto funcionamento da substituição dinâmica de dados importada do Excel.</li>
             <li><span class="badge-alert badge">Item 3</span> <strong>Análise Administrativa (Mínimo 10 linhas):</strong> Justificativa teórica explicando como a personalização em massa afeta positivamente as métricas de <i>Retenção de Clientes</i>, <i>LTV (Lifetime Value)</i> e o engajamento em comparação com comunicações frias padronizadas.</li>
         </ul>
     </section>
